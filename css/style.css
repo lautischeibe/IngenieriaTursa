@@ -97,7 +97,7 @@ body {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
-    gap: 5em;
+    gap: 4em;
     font-weight: 500;
 }
 
@@ -200,7 +200,7 @@ body {
 .subtitle {
     position: relative;
     font-size: 3rem;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     z-index: 2; /* Asegura que quede sobre `.about__text` */
     color: #a2a2ac;
@@ -322,7 +322,7 @@ body {
 .knowledge__picture {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
-    gap: 15px; /* Espacio entre las cards */
+    gap: 20px; /* Espacio entre las cards */
 }
 
 .knowledge__span{
@@ -351,7 +351,7 @@ body {
     display: flex;
     flex-direction: column; 
     justify-content: center;
-} */
+}  */
 
 .profile__role {
     color: rgb(86, 86, 86);
@@ -405,8 +405,12 @@ body {
     /* background-color: rgb(29, 147, 149); */
 }
 
+.subtitle__price{
+    padding-top: 25px;
+}
+
 .price__table{
-    padding-top: 60px;
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
@@ -416,7 +420,10 @@ body {
 }
 
 .price__text{
+    padding-top: 40px;
     font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
     font-size: 1.5rem;
     position: relative;
     font-size: 15px;
@@ -597,14 +604,12 @@ body {
 /* QUESTIONS */
 
 #contacto {
-    height: 100vh; /* O la altura que prefieras */
-    display: flex; /* Si quieres centrar contenido */
+    height: 100vh; 
+    display: flex; 
     flex-direction: column;
     justify-content: center; /* Para mantener elementos centrados */
     align-items: center;
 }
-
-
 
 .questions {
     text-align: left;
@@ -814,191 +819,264 @@ input[type="submit"]:hover {
 
 /* MEDIA */
 
-@media (max-width:900px){
-    .nav__menu{
-        display: block;
-    }
+@media (max-width: 1300px){
 
-    .nav__link--menu{
-        position: fixed;
-        background-color: #000;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 100;
-        opacity: 0;
-        pointer-events: none;
-        transition: .7s opacity; 
-    }
-
-    .nav__link--show{
-        --show: block;
-        opacity: 1;
-        pointer-events: unset;
-    }
-
-    .nav__close{
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        width: 30px;
-        cursor: pointer;
-    }
-
-    .hero__title{
-        font-size: 2.5rem;
-    }
-
-    .about__main{
-        gap: 2em;
-    }
-
-    .about__icons:last-of-type{
-        grid-column: 1/-1;
-    }
-
-
-    .knowledge__container{
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content 1fr;
-        gap: 3em;
-        text-align: center;
-    }
-
-    .knowledge__picture{
-        grid-row: 1/2;
-        justify-self: center;
-    }
-
-    .testimony__container{
-        grid-template-columns: 30px 1fr 30px;
-    }
-
-    .testimony__body{
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content max-content;
-        gap: 3em;
-        justify-items:center ;
-    }
-
-    .testimony__img{
-        width: 200px;
-        height: 200px;
-        
-    }
-
-    .questions__copy{
-        width: 100%;
-    }
-
-    .footer__container{
-        flex-wrap: wrap;
-    }
-
-    .nav--footer{
-        width: 100%;
-        justify-items: center;
-    }
-
-    .nav__link--footer{
-        width: 100%;
-        justify-content: space-evenly;
-        margin-right: 0;
-    }
-
-    .footer__form{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    .footer__input{
-        flex: 1;
-    }
+.nav{
+    --padding-container: 0; 
+    height: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: 1000;
+    padding: 20px 40px;
+    transition: 0.5s;
 }
 
-@media (max-width:600px){
-    .hero__title{
-        font-size: 2rem;
-    }
+.nav.abajo{
+    background: #000;
+    padding: 25px 50px;
+    height: 70px;
+}
 
-    .hero__paragraph{
-        font-size: 1rem;
-    }
+.nav__logo img{
+    margin-top: 5px;
+    width: 200px;
+}
 
-    .subtitle{
-        font-size: 1.8rem;
-    }
+.nav__title{
+    font-weight: 300;
+}
 
-    .price__element{
-        width: 90%;
-    }
+.nav__link{
+    margin-left: auto; 
+    padding: 0; 
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 3em;
+    font-weight: 500;
+}
 
-    .price__element--best{
-        width: 90%;
-        /* padding: 40px; */
-    }
+.knowledge__container{
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+    gap: 3em;
+    text-align: center;
+}
 
-    .price__price{
-        font-size: 2rem;
-    }
+.knowledge__paragraph{
+    padding: 30px;
+}
+.knowledge__paragraph2{
+    padding: 10px;
+    padding-bottom: 30px;
+}
 
-    .testimony{
-        --padding-container: 60px 0;
-    }
+}
 
-    .testimony__container{
-        grid-template-columns: 28px 1fr 28px;
-        gap: .9em;
-    }
+@media (max-width: 1150px){
+.nav__menu{
+    display: block;
+}
 
-    .testimony__arrow{
-        width: 100%;
-    }
+.nav__link--menu{
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: .7s opacity; 
+}
 
-    .testimony__course{
-        margin-top: 15px;
-    }
+.nav__link--show{
+    --show: block;
+    opacity: 1;
+    pointer-events: unset;
+}
 
-    .questions__title{
-        font-size: 1rem;
-    }
+.nav__close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+}
 
-    .footer__title{
-        justify-self: start;
-        margin-bottom: 15px;
-    }
+.hero__title{
+    font-size: 2.5rem;
+}
 
-    .nav--footer{
-        padding-bottom: 60px;
-    }
+.about__main{
+    gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
 
-    .nav__link--footer{
-        justify-content: space-between;
-    }
 
-    .footer__inputs{
-        flex-wrap: wrap;
-    }
+.knowledge__container{
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+    text-align: center;
+}
 
-    .footer__input{
-        flex-basis: 100%;
-        margin: 0;
-        margin-bottom: 16px;
-    }
 
-    .footer__submit{
+.knowledge__paragraph{
+    padding: 20px;
+}
+.knowledge__paragraph2{
+    padding-bottom: 30px;
+}
 
-        margin:0;
-        width: 100%;
+.knowledge__picture{
+    padding-top: -30px;
+}
 
-        /*
-        margin-right: auto;
-        margin-left: 0;
-        */
-    }
+.price{
+    text-align: center;
+}
+
+.price__container{
+    height: 100vh;
+    background-image: url(../src/img/fondos/rascacielosblur.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    z-index: 1000;
+    /* background-color: rgb(29, 147, 149); */
+}
+
+.subtitle__price{
+    padding-top: 100px;
+}
+
+.price__table{
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.price__text{
+    padding-top: 120px;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    position: relative;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+
+.questions__copy{
+    width: 100%;
+}
+
+.footer__container{
+    flex-wrap: wrap;
+}
+
+.nav--footer{
+    width: 100%;
+    justify-items: center;
+}
+
+.nav__link--footer{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-right: 0;
+}
+
+.footer__form{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.footer__input{
+    flex: 1;
+}
+
+
+
+
+@media (max-width: 700px){
+.hero__title{
+    font-size: 2rem;
+}
+
+.hero__paragraph{
+    font-size: 1rem;
+}
+
+.subtitle{
+    font-size: 1.8rem;
+}
+
+.price__element{
+    width: 90%;
+}
+
+.price__element--best{
+    width: 90%;
+    /* padding: 40px; */
+}
+
+.price__price{
+    font-size: 2rem;
+}
+
+
+.questions__title{
+    font-size: 1rem;
+}
+
+.footer__title{
+    justify-self: start;
+    margin-bottom: 15px;
+}
+
+.nav--footer{
+    padding-bottom: 60px;
+}
+.nav__link--footer{
+    justify-content: space-between;
+}
+
+.footer__inputs{
+    flex-wrap: wrap;
+}
+
+.footer__input{
+    flex-basis: 100%;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.footer__submit{
+    margin:0;
+    width: 100%;
+    /*
+    margin-right: auto;
+    margin-left: 0;
+    */
+}
+}
 }
