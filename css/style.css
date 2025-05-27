@@ -151,13 +151,14 @@ body {
 .hero__paragraph{
     margin-bottom: 20px;
     font-size: 3rem;
-    font-weight: 600;
-    color: gold;
-    text-shadow: 1px 1px 1px black, 0 0 3px gold;
+    font-weight: 800;
+    color: #EDE208;
+    /* text-shadow: 1px 1px 1px black, 0 0 3px gold; */
 }
 
 .hero__span{
     font-weight: 900;
+    /* text-shadow: 1px 1px 1px black, 0 0 3px #EDE208; */
 }
 
 .cta{
@@ -186,6 +187,7 @@ body {
     background-size: 0vh;
     background-position: center;
     background-size: cover;
+    /* scroll-margin-top: 80px; */
 }
 
 
@@ -204,8 +206,8 @@ body {
     margin-top: 30px;
     margin-bottom: 20px;
     z-index: 2; /* Asegura que quede sobre `.about__text` */
-    color: #a2a2ac;
-    text-shadow: 1px 1px 1px black;
+    color: #E4E5E4;
+    /* text-shadow: 1px 1px 1px black; */
     font-weight: 600;
 }
 
@@ -219,7 +221,7 @@ body {
     line-height: 1.8; /* Mejora la legibilidad */
     margin-bottom: 10px; /* Espaciado entre párrafos */
     margin-top: 10px;
-    color: #c8c8c8;
+    color: #E4E5E4;
     font-size: 15px;
     text-align: justify;
     font-weight: 400;
@@ -230,7 +232,7 @@ body {
     padding-left: 20px; /* Espaciado para que no quede pegado */
     line-height: 1;
     font-size: 15px;
-    color: #c8c8c8;
+    color: #E4E5E4;
     font-weight: 400;
 }
 
@@ -259,7 +261,7 @@ body {
 .about__icons {
     width: 230px; /* Tamaño fijo para asegurar la forma */
     height: 230px; /* Igual al ancho para mantener proporción */
-    background-color: #aaaaaa; /* Fondo para destacar */
+    background-color: #a0a0a0; /* Fondo para destacar */
     border-radius: 10%; /* Convierte en círculo */
     display: flex;
     flex-direction: column;
@@ -276,8 +278,8 @@ body {
 }
 
 .about__title{
-    color: gold;
-    text-shadow: 1px 1px 1px black, 0 0 1px grey;
+    color: #EDE208;
+    /* text-shadow: 1px 1px 1px black, 0 0 1px grey; */
     font-weight: 500;
 }
 
@@ -311,19 +313,19 @@ body {
     height: 100vh;
     max-width: 1200px;
     grid-template-columns: 2fr 1fr;
-    gap: 2.5em;
+    gap: 2em;
     align-items: center;
-    line-height: 2;
+    line-height: 1.7;
     font-size: 15px;
 }
 
 .knowledge__paragraph{
     font-weight: 400;
-    color: #c8c8c8;
+    color: #E4E5E4;
 }
 .knowledge__paragraph2{
     font-weight: 400;
-    color: #c8c8c8;
+    color: #E4E5E4;
 }
 
 .knowledge__picture {
@@ -341,7 +343,7 @@ body {
     flex-direction: column;
     align-items: center; /* Centra los elementos */
     justify-content: space-between; /* Distribuye bien los espacios */
-    background-color: #c8c8c8;
+    background-color: #E4E5E4;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -361,7 +363,7 @@ body {
 }  */
 
 .profile__role {
-    color: rgb(86, 86, 86);
+    color: #2E2D2C;
     font-weight: 400;
 }
 
@@ -376,7 +378,7 @@ body {
 .profile__name {
     font-size: 18px;
     text-align: center;
-    text-shadow: 1px 1px 1px grey;
+    /* text-shadow: 1px 1px 1px grey; */
     font-weight: 800;
 }
 
@@ -418,7 +420,7 @@ body {
     margin-top: 30px;
     z-index: 2; /* Asegura que quede sobre `.about__text` */
     color: #a2a2ac;
-    text-shadow: 1px 1px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
     font-weight: 600;
 }
 
@@ -458,21 +460,11 @@ body {
     padding: 40px;
 }
 
-/* .price__element--best{
-    width: 370px;
-    padding: 60px 40px;
-    background-color: #FF7143;
-    --color-plan: rgb(255 255 255 / 75%);
-    --bg-cta: #9F3919;
-    --color-cta: #FFF;
-    --color-price: #FFF;
-} */
-
 .price__name{
-    color: gold;
+    color: #EDE208;
     font-weight: 600;
     font-size: 1.2rem;
-    text-shadow: 1px 1px 1px black, 0 0 3px grey
+    /* text-shadow: 1px 1px 1px black, 0 0 3px grey */
 }
 
 .price__price{
@@ -513,64 +505,6 @@ body {
     margin-bottom: 50px;
 }  */
 
-
-/* TESTIMONY */
-
-.testimony{
-    background-color: rgb(82, 82, 82);
-}
-
-.testimony__container{
-    display: grid;
-    max-width: 1200px;
-    /* height: 100vh; */
-    grid-template-columns: 50px 1fr 50px;
-    gap: 1em;
-    align-items: center;
-}
-
-.testimony__body{
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.testimony__body--show{
-    pointer-events: unset;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
-}
-
-.testimony__img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 50% 30%;
-}
-
-.testimony__texts{
-    max-width: 700px;
-}
-
-.testimony__course{
-    background-color: royalblue;
-    color: #fff;
-    display: inline-block;
-    padding: 5px;
-}
-
-.testimony__arrow{
-    width: 90%;
-    cursor: pointer;
-}
-
 /* SCROLLER */
 
 .scroll{
@@ -578,7 +512,6 @@ body {
     display: flex;
     width: 100%;
     overflow: hidden;
-    /* mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent); */
 }
 
 .scroll div{
@@ -601,14 +534,15 @@ body {
 
 .scroll__body{
     display: flex;
-    background-color: #000000;
+    background-color: #1E449C;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 37vh;
 }
 
 .scroll__img{
-    width: 400px;
+    width: 350px;
+    height: 100px;
     margin: 0 20px;
     transition: .7s;
     cursor: pointer;
@@ -627,7 +561,6 @@ body {
 .questions {
     text-align: left;
     background-image: url(../src/img/fotosweb/CONTACTO.png);
-    background-color: rgb(86, 86, 86); /* Coincide con el fondo de la sección "ABOUT" */
     padding: 50px 20px;
 }
 
@@ -646,8 +579,8 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     z-index: 2; /* Asegura que quede sobre `.about__text` */
-    color: #a2a2ac;
-    text-shadow: 1px 1px 1px black;
+    color: #E4E5E4;
+    /* text-shadow: 1px 1px 1px black; */
     text-align: center; /* Centra el texto */
     display: block; /* Asegura que no haya interferencias con elementos inline */
     width: 100%; /* Ocupar todo el ancho */
@@ -669,11 +602,12 @@ body {
 .form__input {
     width: 40vw;
     padding: 12px;
-    border: 2px solid rgb(145, 145, 145); /* Usa el dorado de los textos */
-    background-color: #c8c8c8;
+    border: 2px solid #E4E5E4; /* Usa el dorado de los textos */
+    background-color: #2E2D2C;
     font-size: 1rem;
     font-weight: 400;
     border-radius: 5px;
+    color: white;
     outline: none;
 }
 
@@ -690,7 +624,7 @@ body {
     width: 15%;
     margin-top: 40px;
     padding: 12px;
-    background-color: grey; /* Coincide con el botón .cta */
+    background-color: #2E2D2C; /* Coincide con el botón .cta */
     border: none;
     color: white;
     font-size: 1rem;
@@ -700,17 +634,16 @@ body {
 }
 
 input[type="submit"]:hover {
-    background-color: rgba(49, 49, 49, 0.8); /* Un gris más claro */
+    background-color: #E4E5E4; /* Un gris más claro */
     color: white;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
     
 }
 
 /* FOOTER */
 
 .footer{
-    background-color: #001a49;
-
+    background-color: #1E449C;
 }
 
 .footer__title{
