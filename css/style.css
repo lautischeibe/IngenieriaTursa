@@ -549,13 +549,27 @@ body {
     transition: .7s;
     cursor: pointer;
 }
+.scroll__img2{
+    width: 500px;
+    height: 150px;
+    margin: 0 20px;
+    transition: .7s;
+    cursor: pointer;
+}
+.scroll__img6{
+    width: 500px;
+    height: 120px;
+    margin: 0 20px;
+    transition: .7s;
+    cursor: pointer;
+}
 
 /* QUESTIONS */
 
 #contacto {
     height: 100vh; 
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center; /* Para mantener elementos centrados */
     align-items: center;
 }
@@ -568,41 +582,51 @@ body {
 
 .questions__container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Alineado a la izquierda como el contenido de "hero" */
-    /* max-width: 600px; */
-    margin: auto;
-    gap: 1.5em;
+    flex-direction: row;
+    justify-content: space-between; /* Distribuye los elementos en la sección */
+    align-items: flex-start; /* Alinea el contenido al inicio */
+    gap: 2rem;
+    position: relative; /* Para posicionar el título */
 }
 
+
+
 .subtitle__questions {
-    position: relative;
+    display: flex;
     font-size: 3rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    z-index: 2; /* Asegura que quede sobre `.about__text` */
+    position: absolute;
+    top: 100px; /* Lo coloca en la parte superior */
+    left: 200px; /* Lo alinea a la izquierda */
+    font-size: 3rem;
+    margin: 0;
     color: #E4E5E4;
     /* text-shadow: 1px 1px 1px black; */
     text-align: center; /* Centra el texto */
-    display: block; /* Asegura que no haya interferencias con elementos inline */
-    width: 100%; /* Ocupar todo el ancho */
 }
 
 
 .form {
-    width: 80%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 180px; 
+    margin-right: 180px;
 }
+
 
 .form__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
-    width: 100%;
+    gap: 0.5em;
 }
 
 .form__input {
-    width: 40vw;
+    width: 30vw;
     padding: 12px;
     border: 2px solid #E4E5E4; /* Usa el dorado de los textos */
     background-color: #2E2D2C;
@@ -623,7 +647,7 @@ body {
 }
 
 .input__questions{
-    width: 15%;
+    width: 25%;
     margin-top: 40px;
     padding: 12px;
     background-color: #2E2D2C; /* Coincide con el botón .cta */
@@ -641,6 +665,21 @@ input[type="submit"]:hover {
     transition: background-color 0.5s ease-in-out;
     
 }
+
+.map__questions {
+    flex: 2; /* Igual al formulario, para que ambos ocupen el mismo espacio */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 50%;
+}
+
+.map__questions iframe {
+    max-width: 100%;
+}
+
 
 /* FOOTER */
 
