@@ -517,6 +517,10 @@ body {
 }
 
 .scroll div{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 20px; /* Espacio entre los logos */
     white-space: nowrap;
     animation: animate 50s linear infinite;
 }
@@ -542,15 +546,37 @@ body {
     min-height: 37vh;
 }
 
-.scroll__img{
+
+.scroll__img1{
     width: 500px;
-    height: 100px;
+    height: 200px;
     margin: 0 20px;
     transition: .7s;
     cursor: pointer;
 }
 .scroll__img2{
     width: 500px;
+    height: 150px;
+    margin: 0 20px;
+    transition: .7s;
+    cursor: pointer;
+}
+.scroll__img3{
+    width: 500px;
+    height: 100px;
+    margin: 0 20px;
+    transition: .7s;
+    cursor: pointer;
+}
+.scroll__img4{
+    width: 350px;
+    height: 250px;
+    margin: 0 20px;
+    transition: .7s;
+    cursor: pointer;
+}
+.scroll__img5{
+    width: 550px;
     height: 150px;
     margin: 0 20px;
     transition: .7s;
@@ -668,6 +694,7 @@ input[type="submit"]:hover {
 
 .map__questions {
     flex: 2; /* Igual al formulario, para que ambos ocupen el mismo espacio */
+    padding-right: 120px;
     display: flex;
     justify-content: center;
     flex-direction: column;
