@@ -454,17 +454,17 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 .subtitle__price {
     position: relative;
     font-size: 3rem;
-    margin-top: 30px;
+    margin-top: -50px;
     z-index: 2;
     /* Asegura que quede sobre `.about__text` */
-    color: #a2a2ac;
+    color: #aaaaaa;
     /* text-shadow: 1px 1px 1px black; */
     font-weight: 600;
 }
 
 .price__table {
     padding-top: 25px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
@@ -491,12 +491,17 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 }
 
 .price__element {
-    background-color: #aaaaaa;
+    background-image: url(../src/img/fotosweb/INICIO.png);
     text-align: center;
     border-radius: 10px;
-    width: 230px;
-    height: 230px;
-    padding: 40px;
+    width: 1000px;
+    height: 450px;
+    padding: 50px;
+    transition: transform 0.3s ease;
+}
+
+.price__element:hover {
+    transform: scale(1.1);
 }
 
 .price__name {
@@ -529,9 +534,9 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
     transition: transform 0.3s ease;
 }
 
-.price__img:hover {
+/* .price__img:hover {
     transform: scale(1.2);
-}
+} */
 
 /* .price__cta{
     display: block;
@@ -594,57 +599,37 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 
 .scroll__body {
     display: flex;
-    background-color: #1E449C;
+    background-color: #efefef;
     justify-content: center;
     align-items: center;
-    min-height: 37vh;
+    min-height: 30vh;
 }
 
-
-.scroll__img1 {
-    width: 500px;
+.scroll__img1,
+.scroll__img2,
+.scroll__img3,
+.scroll__img4,
+.scroll__img5,
+.scroll__img6,
+.scroll__img7,
+.scroll__img8,
+.scroll__img9,
+.scroll__img10,
+.scroll__img11,
+.scroll__img12,
+.scroll__img13,
+.scroll__img14,
+.scroll__img15,
+.scroll__img16,
+.scroll__img17,
+.scroll__img18,
+.scroll__img19,
+.scroll__img20,
+.scroll__img21,
+.scroll__img22 {
+    width: 200px;
     height: 200px;
-    margin: 0 20px;
-    transition: .7s;
-    cursor: pointer;
-}
-
-.scroll__img2 {
-    width: 500px;
-    height: 150px;
-    margin: 0 20px;
-    transition: .7s;
-    cursor: pointer;
-}
-
-.scroll__img3 {
-    width: 500px;
-    height: 100px;
-    margin: 0 20px;
-    transition: .7s;
-    cursor: pointer;
-}
-
-.scroll__img4 {
-    width: 350px;
-    height: 250px;
-    margin: 0 20px;
-    transition: .7s;
-    cursor: pointer;
-}
-
-.scroll__img5 {
-    width: 550px;
-    height: 150px;
-    margin: 0 20px;
-    transition: .7s;
-    cursor: pointer;
-}
-
-.scroll__img6 {
-    width: 500px;
-    height: 120px;
-    margin: 0 20px;
+    margin: 0 25px;
     transition: .7s;
     cursor: pointer;
 }
@@ -908,7 +893,7 @@ input[type="submit"]:hover {
 /* PROYECTOS */
 
 .edificios__container {
-    background-color: red;
+    background-image: url(../src/img/fotosweb/SERVICIOS.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -950,7 +935,7 @@ input[type="submit"]:hover {
 /* INDUSTRIAL */
 
 .industrial__container {
-    background-color: rgb(0, 72, 255);
+    background-image: url(../src/img/fotosweb/INICIO.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -972,9 +957,9 @@ input[type="submit"]:hover {
 
 .industrial__gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 30px;
-    margin-top: -50px; 
+    margin-top: 50px; 
 }
 
 .industrial__gallery img{
@@ -986,7 +971,7 @@ input[type="submit"]:hover {
 /* INFRAESTRUCTURA */
 
 .infraestructura__container {
-    background-color: crimson;
+    background-image: url(../src/img/fotosweb/QUIENES\ SOMOS.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
