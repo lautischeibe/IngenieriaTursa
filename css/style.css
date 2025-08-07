@@ -501,7 +501,7 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 }
 
 .price__element:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .price__name {
@@ -664,8 +664,6 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
     position: relative;
     /* Para posicionar el título */
 }
-
-
 
 .subtitle__questions {
     display: flex;
@@ -890,9 +888,11 @@ input[type="submit"]:hover {
 }
 
 
-/* PROYECTOS */
+/* ----------------------------------------------------------------------------PROYECTOS-------------------------------------------------------------------- */
 
-.edificios__container {
+/*-------------------------------------- VIVIENDAS -----------------------------------------------*/
+
+.viviendas__container {
     background-image: url(../src/img/fotosweb/SERVICIOS.png);
     width: 100%;
     min-height: 100vh;
@@ -902,39 +902,51 @@ input[type="submit"]:hover {
     padding: 50px 8%;
 }
 
-.edificios--subtitle__container{
-    display: flex;
-    font-size: 3rem;
+.viviendas--subtitle__container {
     position: absolute;
-    top: 100px;
-    left: 200px;
-    font-size: 3rem;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
     color: #E4E5E4;
     text-align: center;
-} 
-
-.edificios__subtitle{
-    text-align: center;
     font-size: 3rem;
+    padding-top: 15px;
+}
+
+.viviendas__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
 }
 
-.edificios__gallery{
+.viviendas__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 30px;
-    margin-top: 50px;
+    grid-gap: 50px;
+    margin-top: 150px;
 }
 
-.edificios__gallery img{
+.viviendas__gallery img {
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
     cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
 }
 
-/* INDUSTRIAL */
+.viviendas__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
+}
 
-.industrial__container {
+
+/* EDIFICIOS */
+
+.edificios__container {
     background-image: url(../src/img/fotosweb/INICIO.png);
     width: 100%;
     min-height: 100vh;
@@ -944,67 +956,44 @@ input[type="submit"]:hover {
     padding: 50px 8%;
 }
 
-.industrial__subtitle{
-    text-align: center;
-    margin-bottom: 25px;
-    margin-right: 50px;
+.edificios--subtitle__container {
     position: relative;
+    color: #E4E5E4;
+    text-align: center;
     font-size: 3rem;
-    z-index: 2;
+    padding-top: 15px;
+}
+
+.edificios__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
 }
 
-.industrial__gallery{
+.edificios__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 30px;
-    margin-top: 50px; 
+    grid-gap: 50px;
+    margin-top: 150px;
 }
 
-.industrial__gallery img{
+.edificios__gallery img {
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
     cursor: pointer;
-    transition: 1s;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
 }
 
-/* INFRAESTRUCTURA */
-
-.infraestructura__container {
-    background-image: url(../src/img/fotosweb/QUIENES\ SOMOS.png);
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 8%;
+.edificios__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
 }
 
-.infraestructura__subtitle{
-    text-align: center;
-    margin-left: -30px;
-    margin-bottom: 25px;
-    padding-right: 50px;
-    position: relative;
-    font-size: 2.5rem;
-    z-index: 2;
-    color: #E4E5E4;
-    font-weight: 600;
-}
-
-.infraestructura__gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-    grid-gap: 30px;
-    margin-top: -50px; 
-    margin-left: 20px;
-    }
-
-.infraestructura__gallery img{
-    width: 100%;
-    cursor: pointer;
-    transition: 1s;
-}
 
 
 /* MEDIA */
