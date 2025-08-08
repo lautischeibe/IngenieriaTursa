@@ -947,7 +947,8 @@ input[type="submit"]:hover {
 /* EDIFICIOS */
 
 .edificios__container {
-    background-image: url(../src/img/fotosweb/INICIO.png);
+    position: relative;
+    background-image: url(../src/img/fotosweb/QUIENES\ SOMOS.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -957,11 +958,12 @@ input[type="submit"]:hover {
 }
 
 .edificios--subtitle__container {
-    position: relative;
+    position: absolute;
+    top: 125px;
     color: #E4E5E4;
     text-align: center;
     font-size: 3rem;
-    padding-top: 15px;
+    /* padding-top: 10px; */
 }
 
 .edificios__subtitle {
@@ -973,7 +975,7 @@ input[type="submit"]:hover {
 
 .edificios__gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 50px;
     margin-top: 150px;
 }
@@ -994,7 +996,111 @@ input[type="submit"]:hover {
     /* Zoom leve al hacer hover */
 }
 
+/* INDUSTRIAS */
 
+.industria__container {
+    position: relative;
+    background-image: url(../src/img/fondos/edificiopattern.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.industria--subtitle__container {
+    position: absolute;
+    top: 125px;
+    color: #E4E5E4;
+    text-align: center;
+    font-size: 3rem;
+    /* padding-top: 10px; */
+}
+
+.industria__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #E4E5E4;
+    font-weight: 600;
+}
+
+.industria__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 50px;
+    margin-top: 150px;
+}
+
+.industria__gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+}
+
+.industria__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
+}
+
+/* PUENTES */
+
+.puentes__container {
+    position: relative;
+    background-image: url(../src/img/fondos/EXWKm9OUwAAt_w9.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.puentes--subtitle__container {
+    position: absolute;
+    top: 125px;
+    color: #E4E5E4;
+    text-align: center;
+    font-size: 3rem;
+    /* padding-top: 10px; */
+}
+
+.puentes__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #E4E5E4;
+    font-weight: 600;
+}
+
+.puentes__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 50px;
+    margin-top: 150px;
+}
+
+.puentes__gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+}
+
+.puentes__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
+}
+
+/* --------------------------------------------------------------------------------------------*/
 
 /* MEDIA */
 
