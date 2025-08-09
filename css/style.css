@@ -1100,6 +1100,162 @@ input[type="submit"]:hover {
     /* Zoom leve al hacer hover */
 }
 
+/* HIDRAULICAS */
+
+.hidraulicas__container {
+    position: relative;
+    background-image: url(../src/img/fondos/ricardo-gomez-angel-CIxI3XL1Sz4-unsplash.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.hidraulicas--subtitle__container {
+    position: absolute;
+    top: 125px;
+    color: #E4E5E4;
+    text-align: center;
+    font-size: 3rem;
+    /* padding-top: 10px; */
+}
+
+.hidraulicas__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #E4E5E4;
+    font-weight: 600;
+}
+
+.hidraulicas__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 50px;
+    margin-top: 150px;
+}
+
+.hidraulicas__gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+}
+
+.hidraulicas__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
+}
+
+/* CONTENCIONES */
+
+.contenciones__container {
+    position: relative;
+    background-image: url(../src/img/fondos/diseasemonsterga.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.contenciones--subtitle__container {
+    position: absolute;
+    top: 125px;
+    color: #E4E5E4;
+    text-align: center;
+    font-size: 3rem;
+    /* padding-top: 10px; */
+}
+
+.contenciones__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #E4E5E4;
+    font-weight: 600;
+}
+
+.contenciones__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 50px;
+    margin-top: 150px;
+}
+
+.contenciones__gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+}
+
+.contenciones__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
+}
+
+/* ESTADIOS */
+
+.estadios__container {
+    position: relative;
+    background-image: url(../src/img/fondos/rascacielos.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.estadios--subtitle__container {
+    position: absolute;
+    top: 125px;
+    color: #E4E5E4;
+    text-align: center;
+    font-size: 3rem;
+    /* padding-top: 10px; */
+}
+
+.estadios__subtitle {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #E4E5E4;
+    font-weight: 600;
+}
+
+.estadios__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 50px;
+    margin-top: 150px;
+}
+
+.estadios__gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+}
+
+.estadios__gallery img:hover {
+    transform: scale(1.1);
+    /* Zoom leve al hacer hover */
+}
+
 /* --------------------------------------------------------------------------------------------*/
 
 /* MEDIA */
