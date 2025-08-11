@@ -959,11 +959,9 @@ input[type="submit"]:hover {
 
 .edificios--subtitle__container {
     position: absolute;
-    top: 125px;
+    top: 75px;
     color: #E4E5E4;
     text-align: center;
-    font-size: 3rem;
-    /* padding-top: 10px; */
 }
 
 .edificios__subtitle {
@@ -977,7 +975,7 @@ input[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 50px;
-    margin-top: 150px;
+    margin-top: 75px;
 }
 
 .edificios__gallery img {
@@ -1011,11 +1009,10 @@ input[type="submit"]:hover {
 
 .industria--subtitle__container {
     position: absolute;
-    top: 125px;
+    top: 90px;
     color: #E4E5E4;
     text-align: center;
     font-size: 3rem;
-    /* padding-top: 10px; */
 }
 
 .industria__subtitle {
@@ -1027,9 +1024,11 @@ input[type="submit"]:hover {
 
 .industria__gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 150px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 100px;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .industria__gallery img {
@@ -1063,11 +1062,9 @@ input[type="submit"]:hover {
 
 .puentes--subtitle__container {
     position: absolute;
-    top: 125px;
+    top: 80px;
     color: #E4E5E4;
     text-align: center;
-    font-size: 3rem;
-    /* padding-top: 10px; */
 }
 
 .puentes__subtitle {
@@ -1081,7 +1078,7 @@ input[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 50px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .puentes__gallery img {
@@ -1133,7 +1130,7 @@ input[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .hidraulicas__gallery img {
@@ -1167,11 +1164,9 @@ input[type="submit"]:hover {
 
 .contenciones--subtitle__container {
     position: absolute;
-    top: 125px;
+    top: 90px;
     color: #E4E5E4;
     text-align: center;
-    font-size: 3rem;
-    /* padding-top: 10px; */
 }
 
 .contenciones__subtitle {
@@ -1185,7 +1180,7 @@ input[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .contenciones__gallery img {
@@ -1219,11 +1214,9 @@ input[type="submit"]:hover {
 
 .estadios--subtitle__container {
     position: absolute;
-    top: 125px;
+    top: 90px;
     color: #E4E5E4;
     text-align: center;
-    font-size: 3rem;
-    /* padding-top: 10px; */
 }
 
 .estadios__subtitle {
@@ -1235,9 +1228,11 @@ input[type="submit"]:hover {
 
 .estadios__gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 150px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 100px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .estadios__gallery img {
@@ -1253,7 +1248,6 @@ input[type="submit"]:hover {
 
 .estadios__gallery img:hover {
     transform: scale(1.1);
-    /* Zoom leve al hacer hover */
 }
 
 /* --------------------------------------------------------------------------------------------*/
@@ -1261,7 +1255,6 @@ input[type="submit"]:hover {
 /* MEDIA */
 
 @media (max-width: 1300px) {
-
     .nav {
         --padding-container: 0;
         height: 90px;
