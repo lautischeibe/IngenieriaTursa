@@ -403,8 +403,8 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 }
 
 .profile__img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 10%;
     margin-bottom: 30px;
     margin-top: 10px;
@@ -491,9 +491,12 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 }
 
 .price__element {
-    background-image: url(../src/img/fotosweb/INICIO.png);
+    background-image: url(../src/img/proyectosfondos/VER\ MÁS.png);
+    background-size: contain;       /* Ajusta la imagen para que se vea completa */
+    background-repeat: no-repeat;   /* Evita que se repita */
+    background-position: center;    /* Centra la imagen en el contenedor */
     text-align: center;
-    border-radius: 10px;
+    border-radius: 13px;
     width: 1000px;
     height: 450px;
     padding: 50px;
@@ -919,7 +922,7 @@ input[type="submit"]:hover {
 /*-------------------------------------- VIVIENDAS -----------------------------------------------*/
 
 .viviendas__container {
-    background-image: url(../src/img/fotosweb/SERVICIOS.png);
+    background-image: url(../src/img/proyectosfondos/Frame\ 6.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -974,7 +977,7 @@ input[type="submit"]:hover {
 
 .edificios__container {
     position: relative;
-    background-image: url(../src/img/fotosweb/QUIENES\ SOMOS.png);
+    background-image: url(../src/img/proyectosfondos/Frame\ 7.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1024,7 +1027,7 @@ input[type="submit"]:hover {
 
 .industria__container {
     position: relative;
-    background-image: url(../src/img/fondos/edificiopattern.jpg);
+    background-image: url(../src/img/proyectosfondos/Frame\ 8.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1044,7 +1047,7 @@ input[type="submit"]:hover {
 .industria__subtitle {
     text-align: center;
     font-size: 2.7rem;
-    color: #E4E5E4;
+    color: #858585;
     font-weight: 600;
 }
 
@@ -1077,7 +1080,7 @@ input[type="submit"]:hover {
 
 .puentes__container {
     position: relative;
-    background-image: url(../src/img/fondos/EXWKm9OUwAAt_w9.jpg);
+    background-image: url(../src/img/proyectosfondos/Frame\ 5.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1127,7 +1130,7 @@ input[type="submit"]:hover {
 
 .hidraulicas__container {
     position: relative;
-    background-image: url(../src/img/fondos/ricardo-gomez-angel-CIxI3XL1Sz4-unsplash.jpg);
+    background-image: url(../src/img/proyectosfondos/Frame\ 9.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1177,7 +1180,7 @@ input[type="submit"]:hover {
 
 .contenciones__container {
     position: relative;
-    background-image: url(../src/img/fondos/diseasemonsterga.jpg);
+    background-image: url(../src/img/proyectosfondos/Frame\ 10.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1227,7 +1230,7 @@ input[type="submit"]:hover {
 
 .estadios__container {
     position: relative;
-    background-image: url(../src/img/fondos/rascacielos.jpg);
+    background-image: url(../src/img/proyectosfondos/Frame\ 11.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1246,7 +1249,7 @@ input[type="submit"]:hover {
 .estadios__subtitle {
     text-align: center;
     font-size: 2.7rem;
-    color: #E4E5E4;
+    color: #858585;
     font-weight: 600;
 }
 
@@ -1278,7 +1281,7 @@ input[type="submit"]:hover {
 
 .especiales__container {
     position: relative;
-    background-color: chocolate;
+    background-image: url(../src/img/proyectosfondos/Frame\ 12.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -1328,7 +1331,7 @@ input[type="submit"]:hover {
 
 .patologias__container {
     position: relative;
-    background-color: rgb(119, 92, 73);
+    background-image: url(../src/img/proyectosfondos/Frame\ 13.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
