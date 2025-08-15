@@ -877,6 +877,26 @@ input[type="submit"]:hover {
     gap: 4rem;
 }
 
+.footer__social img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.footer__instagram img {
+    width: 22px;
+    /* antes 40px */
+    height: 22px;
+    /* mantiene proporción */
+    object-fit: contain;
+}
+
+.footer__facebook img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
 .footer__icons {
     display: inline-flex;
     margin-bottom: 10px;
@@ -886,6 +906,12 @@ input[type="submit"]:hover {
 .footer__img {
     width: 40px;
 }
+
+.footer__social img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 
 
 /* ----------------------------------------------------------------------------PROYECTOS-------------------------------------------------------------------- */
@@ -959,7 +985,7 @@ input[type="submit"]:hover {
 
 .edificios--subtitle__container {
     position: absolute;
-    top: 75px;
+    top: 65px;
     color: #E4E5E4;
     text-align: center;
 }
@@ -975,7 +1001,7 @@ input[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 50px;
-    margin-top: 75px;
+    margin-top: 67px;
 }
 
 .edificios__gallery img {
@@ -1352,11 +1378,13 @@ input[type="submit"]:hover {
 /* NAV PROYECTOS */
 
 .nav--proyectos .nav__link {
-  gap: 2em; /* reduce el espacio entre ítems */
+    gap: 2em;
+    /* reduce el espacio entre ítems */
 }
 
 .nav--proyectos .nav__links {
-  font-size: 1rem; /* achica el tamaño de letra */
+    font-size: 1rem;
+    /* achica el tamaño de letra */
 }
 
 /* MEDIA */
