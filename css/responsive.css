@@ -95,17 +95,20 @@
     cursor: pointer;
   }
 
-.viviendas__gallery, .viviendas__subtitle{
+  .viviendas__gallery,
+  .viviendas__subtitle {
     margin-top: 0px;
-}
-.edificios__subtitle{
-    margin-top: 70px;
-}
-.edificios__gallery{
-    margin-top: 50px;
-}
+  }
 
-  .industria__gallery{
+  .edificios__subtitle {
+    margin-top: 70px;
+  }
+
+  .edificios__gallery {
+    margin-top: 50px;
+  }
+
+  .industria__gallery {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin-top: 70px;
   }
@@ -118,16 +121,16 @@
     margin-top: 80px;
   }
 
-  .estadios__gallery{
+  .estadios__gallery {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin-top: 70px;
   }
 
-  .especiales__gallery{
+  .especiales__gallery {
     margin-top: 0px;
   }
 
-  .patologias__gallery{
+  .patologias__gallery {
     margin-top: 0px;
   }
 }
@@ -168,17 +171,20 @@
     cursor: pointer;
   }
 
-.viviendas__gallery, .viviendas__subtitle{
+  .viviendas__gallery,
+  .viviendas__subtitle {
     margin-top: 0px;
-}
+  }
 
-.edificios__subtitle{
+  .edificios__subtitle {
     margin-top: 70px;
-}
-.edificios__gallery{
+  }
+
+  .edificios__gallery {
     margin-top: 70px;
-        gap: 25px;
-  }  
+    gap: 25px;
+  }
+
   .industria__gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -188,42 +194,50 @@
     width: 100%;
     padding: 0 2rem;
   }
-  .puentes__subtitle{
+
+  .puentes__subtitle {
     margin-top: 0px;
   }
-.puentes__gallery{
+
+  .puentes__gallery {
     margin-top: 0px;
-}
+  }
 
 
-  .hidraulicas__subtitle{
+  .hidraulicas__subtitle {
     margin-top: 10px;
   }
+
   .hidraulicas__gallery {
     margin-top: 0px;
   }
-  .contenciones__subtitle{
+
+  .contenciones__subtitle {
     margin-top: 10px;
   }
+
   .contenciones__gallery {
     margin-top: 0px;
   }
 
-  .estadios__gallery{
+  .estadios__gallery {
     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
     margin-top: 70px;
   }
-  .especiales__subtitle{
+
+  .especiales__subtitle {
     margin-top: 10px;
   }
-  .especiales__gallery{
+
+  .especiales__gallery {
     margin-top: 0px;
   }
 
-  .patologias__subtitle{
+  .patologias__subtitle {
     margin-top: 0px;
   }
-  .patologias__gallery{
+
+  .patologias__gallery {
     margin-top: 0px;
   }
 }
@@ -264,16 +278,19 @@
     cursor: pointer;
   }
 
-.viviendas__gallery, .viviendas__subtitle{
+  .viviendas__gallery,
+  .viviendas__subtitle {
     margin-top: 0px;
-}
-.edificios__subtitle{
+  }
+
+  .edificios__subtitle {
     margin-top: 50px;
-}
-.edificios__gallery{
+  }
+
+  .edificios__gallery {
     margin-top: 0px;
-        grid-template-columns: repeat(3, 1fr);
-}
+    grid-template-columns: repeat(4, 1fr);
+  }
 
   .industria__gallery {
     display: grid;
@@ -285,12 +302,13 @@
     padding: 0 2rem;
   }
 
-    .puentes__subtitle{
+  .puentes__subtitle {
     margin-top: 10px;
   }
-.puentes__gallery{
+
+  .puentes__gallery {
     margin-top: 0px;
-}
+  }
 
 
   .hidraulicas__gallery {
@@ -301,18 +319,20 @@
     margin-top: 0px;
   }
 
-  .estadios__gallery{
+  .estadios__gallery {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin-top: 50px;
   }
 
-  .especiales__gallery{
+  .especiales__gallery {
     margin-top: 0px;
   }
-  .patologias__subtitle{
+
+  .patologias__subtitle {
     margin-top: 10px;
   }
-  .patologias__gallery{
+
+  .patologias__gallery {
     margin-top: 0px;
   }
 }
@@ -352,23 +372,26 @@
     width: 30px;
     cursor: pointer;
   }
-.viviendas__subtitle{
+
+  .viviendas__subtitle {
     margin-top: 0px;
-}
+  }
+
   .viviendas__gallery {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
     padding: 0 0.5rem;
-        margin-top: 0px;
+    margin-top: 0px;
   }
 
-.edificios__subtitle{
+  .edificios__subtitle {
     margin-top: 70px;
-}
-.edificios__gallery{
+  }
+
+  .edificios__gallery {
     margin-top: 50px;
-        grid-template-columns: repeat(3, 1fr);
-}
+    grid-template-columns: repeat(4, 1fr);
+  }
 
   .industria__gallery {
     display: grid;
@@ -380,12 +403,13 @@
     padding: 0 2rem;
   }
 
-    .puentes__subtitle{
+  .puentes__subtitle {
     margin-top: 10px;
   }
-.puentes__gallery{
+
+  .puentes__gallery {
     margin-top: 0px;
-}
+  }
 
 
   .hidraulicas__gallery {
@@ -396,21 +420,24 @@
     margin-top: 0px;
   }
 
-  .estadios__gallery{
+  .estadios__gallery {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin-top: 50px;
   }
 
-  .especiales__gallery{
+  .especiales__gallery {
     margin-top: 0px;
   }
-  .patologias__subtitle{
+
+  .patologias__subtitle {
     margin-top: 10px;
   }
-  .patologias__gallery{
+
+  .patologias__gallery {
     margin-top: 0px;
   }
 }
+
 @media (min-width: 481px) and (max-width: 601px) {
   .nav__menu {
     display: block;
@@ -447,22 +474,25 @@
     cursor: pointer;
   }
 
-.viviendas__subtitle{
+  .viviendas__subtitle {
     margin-top: 0px;
-}
+  }
+
   .viviendas__gallery {
     grid-template-columns: repeat(3, minmax(115px, 1fr));
     gap: 20px;
     padding: 0 0.5rem;
     margin-top: 0px;
   }
-.edificios__subtitle{
+
+  .edificios__subtitle {
     margin-top: 70px;
-}
-.edificios__gallery{
+  }
+
+  .edificios__gallery {
     margin-top: 50px;
-        grid-template-columns: repeat(3, 1fr);
-}
+    grid-template-columns: repeat(4, 1fr);
+  }
 
   .industria__gallery {
     display: grid;
@@ -474,35 +504,47 @@
     padding: 0 2rem;
   }
 
-    .puentes__subtitle{
+  .puentes__subtitle {
     margin-top: 10px;
   }
-.puentes__gallery{
+
+  .puentes__gallery {
     margin-top: 0px;
-}
+  }
 
 
   .hidraulicas__gallery {
     margin-top: -10px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .contenciones__gallery {
     margin-top: 0px;
   }
 
-  .estadios__gallery{
+  .estadios__gallery {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin-top: 50px;
   }
 
-  .especiales__gallery{
-    margin-top: 0px;
+  .especiales__subtitle {
+    padding-top: 50px;
+
   }
-  .patologias__subtitle{
+
+  .especiales__gallery {
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .patologias__subtitle {
     margin-top: 10px;
+
   }
-  .patologias__gallery{
+
+  .patologias__gallery {
     margin-top: 0px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -542,24 +584,26 @@
     cursor: pointer;
   }
 
-.viviendas__subtitle{
+  .viviendas__subtitle {
     margin-top: -10px;
-}
+  }
+
   .viviendas__gallery {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
     padding: 0 0.5rem;
-        margin-top: 0px;
+    margin-top: 0px;
   }
 
-.edificios__subtitle{
+  .edificios__subtitle {
     margin-top: 70px;
-}
-.edificios__gallery{
+  }
+
+  .edificios__gallery {
     margin-top: 70px;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-}
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 
   .industria__gallery {
     display: grid;
@@ -571,10 +615,11 @@
     padding: 0 2rem;
   }
 
-    .puentes__subtitle{
+  .puentes__subtitle {
     margin-top: 10px;
   }
-.puentes__gallery{
+
+  .puentes__gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -582,7 +627,7 @@
     max-width: 1200px;
     width: 100%;
     padding: 0 2rem;
-}
+  }
 
 
   .hidraulicas__gallery {
@@ -606,7 +651,7 @@
     padding: 0 2rem;
   }
 
-  .estadios__gallery{
+  .estadios__gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -614,23 +659,10 @@
     max-width: 1200px;
     width: 100%;
     padding: 0 2rem;
-        margin-top: 10px;
-  }
-
-  .especiales__gallery{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin: 75px auto;
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 2rem;
-        margin-top: 0px;
-  }
-  .patologias__subtitle{
     margin-top: 10px;
   }
-  .patologias__gallery{
+
+  .especiales__gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -638,6 +670,21 @@
     max-width: 1200px;
     width: 100%;
     padding: 0 2rem;
-        margin-top: 0px;
+    margin-top: 0px;
+  }
+
+  .patologias__subtitle {
+    margin-top: 10px;
+  }
+
+  .patologias__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 75px auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 0px;
   }
 }
