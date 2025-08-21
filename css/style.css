@@ -2423,7 +2423,7 @@ input[type="submit"]:hover {
     }
 }
 
-@media (min-width: 400px) and (max-width: 479px) {
+@media (min-width: 389px) and (max-width: 479px) {
     .nav__menu {
         display: block;
     }
@@ -2488,11 +2488,10 @@ input[type="submit"]:hover {
     }
 
     .about__subtitle {
-        margin-top: -50px;
+        margin-top: -90px;
     }
 
     .about__icon {
-
         width: 40px;
     }
 
@@ -2505,7 +2504,7 @@ input[type="submit"]:hover {
 
     .about__text,
     .about__list {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .knowledge {
@@ -2584,13 +2583,12 @@ input[type="submit"]:hover {
     .price__element {
         width: 500px;
         height: 300px;
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     .subtitle__questions {
         margin-top: 60px;
-
-        left: 50px;
+        left: 60px;
     }
 
     .form {
