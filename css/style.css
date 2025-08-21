@@ -934,35 +934,41 @@ input[type="submit"]:hover {
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .viviendas--subtitle__container {
-    position: absolute;
-    top: 125px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #E4E5E4;
     text-align: center;
-    font-size: 3rem;
-    padding-top: 15px;
+    color: #E4E5E4;
+    margin-bottom: 40px;
+    margin-top: 75px;
 }
 
 .viviendas__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .viviendas__gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin-top: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+
+
 
 .viviendas__gallery img {
     width: 100%;
@@ -984,35 +990,39 @@ input[type="submit"]:hover {
 /* EDIFICIOS */
 
 .edificios__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 7.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .edificios--subtitle__container {
-    position: absolute;
-    top: 65px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 40px;
 }
 
 .edificios__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .edificios__gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    grid-gap: 50px;
-    margin-top: 67px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 30px;
 }
 
 .edificios__gallery img {
@@ -1034,39 +1044,41 @@ input[type="submit"]:hover {
 /* INDUSTRIAS */
 
 .industria__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 8.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .industria--subtitle__container {
-    position: absolute;
-    top: 90px;
-    color: #E4E5E4;
     text-align: center;
-    font-size: 3rem;
+    color: #E4E5E4;
+    margin-bottom: 30px;
 }
 
 .industria__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #858585;
     font-weight: 600;
+    text-align: center;
+        margin-top: 50px;
 }
 
 .industria__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 100px;
-    margin-top: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
 
 .industria__gallery img {
     width: 100%;
@@ -1087,36 +1099,41 @@ input[type="submit"]:hover {
 /* PUENTES */
 
 .puentes__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 5.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .puentes--subtitle__container {
-    position: absolute;
-    top: 80px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 50px;
 }
 
 .puentes__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .puentes__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 80px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
 
 .puentes__gallery img {
     width: 100%;
@@ -1137,36 +1154,41 @@ input[type="submit"]:hover {
 /* HIDRAULICAS */
 
 .hidraulicas__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 9.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .hidraulicas--subtitle__container {
-    position: absolute;
-    top: 90px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 50px;
 }
 
 .hidraulicas__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .hidraulicas__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 100px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
 
 .hidraulicas__gallery img {
     width: 100%;
@@ -1187,36 +1209,41 @@ input[type="submit"]:hover {
 /* CONTENCIONES */
 
 .contenciones__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 10.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .contenciones--subtitle__container {
-    position: absolute;
-    top: 90px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 50px;
 }
 
 .contenciones__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .contenciones__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 100px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
 
 .contenciones__gallery img {
     width: 100%;
@@ -1237,38 +1264,42 @@ input[type="submit"]:hover {
 /* ESTADIOS */
 
 .estadios__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 11.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .estadios--subtitle__container {
-    position: absolute;
-    top: 90px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 50px;
 }
 
 .estadios__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #858585;
     font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .estadios__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 100px;
-    margin-top: 90px;
-    margin-left: 100px;
-    margin-right: 100px;
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
+
 
 .estadios__gallery img {
     width: 100%;
@@ -1288,37 +1319,42 @@ input[type="submit"]:hover {
 /* ESPECIALES */
 
 .especiales__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 12.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .especiales--subtitle__container {
-    position: absolute;
-    top: 90px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 50px;
 }
 
 .especiales__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
-    padding-top: 25px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .especiales__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 100px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
+
 
 .especiales__gallery img {
     width: 100%;
@@ -1338,37 +1374,41 @@ input[type="submit"]:hover {
 /* PATOLOGIAS */
 
 .patologias__container {
-    position: relative;
     background-image: url(../src/img/proyectosfondos/Frame\ 13.png);
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 50px 8%;
+    gap: 30px;
 }
 
 .patologias--subtitle__container {
-    position: absolute;
-    top: 90px;
-    color: #E4E5E4;
     text-align: center;
+    color: #E4E5E4;
+    margin-bottom: 50px;
 }
 
 .patologias__subtitle {
-    text-align: center;
     font-size: 2.7rem;
     color: #E4E5E4;
     font-weight: 600;
-    padding-top: 25px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .patologias__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
-    margin-top: 100px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 50px;
 }
+
 
 .patologias__gallery img {
     width: 100%;
@@ -1398,7 +1438,9 @@ input[type="submit"]:hover {
     /* achica el tamaño de letra */
 }
 
-/* MEDIA */
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░                                     MEDIA QUERIES / LANDING PAGE                                               ░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
 
 @media (min-width: 1281px) and (max-width: 1440px) {
     .nav {
@@ -2488,7 +2530,7 @@ input[type="submit"]:hover {
     }
 
     .about__subtitle {
-        margin-top: -90px;
+        margin-top: -100px;
     }
 
     .about__icon {
