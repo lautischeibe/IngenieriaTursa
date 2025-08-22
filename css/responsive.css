@@ -548,7 +548,7 @@
   }
 }
 
-@media (min-width: 389px) and (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .nav__menu {
     display: block;
   }

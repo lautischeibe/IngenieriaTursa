@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === 321px a 375px === */
+/* Teléfonos chicos */
+@media screen and (min-width: 321px) and (max-width: 389px) {
+    .nav__menu {
+        display: block;
+    }
+
+    .nav__link--menu {
+        position: fixed;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+    }
+
+    .nav__link--show {
+        --show: block;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    .nav__close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .about__subtitle {
+        margin-top: -120px;
+        font-size: 40px;
+    }
+
+    .about__cards {
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 20px;
+    }
+
+    .about__main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        margin-top: 70px;
+        padding-right: 70px;
+    }
+
+    .about__icons {
+        width: 90%;
+        max-width: 80px;
+        max-height: 80px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+        margin: auto;
+    }
+
+    .about__icon {
+        width: 100%;
+        max-width: 60px;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 0.6em;
+    }
+
+    .about__title {
+        font-size: 8px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .knowledge__container {
+        margin-top: -65px;
+    }
+
+    .knowledge__texts {
+        padding-bottom: 30px;
+    }
+
+    .knowledge__subtitle {
+        font-size: 2rem;
+    }
+
+    .knowledge__paragraph,
+    .knowledge__paragraph2 {
+        font-size: 9px;
+    }
+
+    .knowledge__picture {
+        padding-top: 0px;
+        gap: 10px;
+        height: 80px;
+    }
+
+    .subtitle__questions {
+        top: 30px;
+        font-size: 2.5rem;
+        left: 57px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .logo__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -30px;
+        margin-bottom: 0.5em;
+    }
+
+    .logo__footer img {
+        width: 180px;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer__form {
+        margin-left: 25px;
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .footer__inputs {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer__input,
+    .footer__submit {
+        width: 100%;
+        max-width: 220px;
+        height: 45px;
+        font-size: 0.95rem;
+    }
+
+    .footer__copy {
+        padding: 1rem 0;
+        border-top: 1px solid #fff;
+        width: 100%;
+    }
+
+    .footer__copyright {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer__title,
+    .footer__newsletter {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer__icons {
+        margin: 0.5rem 0;
+    }
+
+    .footer__social img {
+        width: 26px;
+        height: 26px;
+    }
+
+  .footer__instagram, .footer__facebook {
+    display: none;
+  }
+
+
+
+}
+
+
+
+
+/* === 376px a 480px === */
+/* Teléfonos estándar (Galaxy S8, Pixel 4a) */
+@media screen and (min-width: 389px) and (max-width: 480px) {
+    .nav__menu {
+        display: block;
+    }
+
+    .nav__link--menu {
+        position: fixed;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+    }
+
+    .nav__link--show {
+        --show: block;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    .nav__close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    
+    .about__subtitle {
+        margin-top: -100px;
+    }
+
+    .about__block{
+        margin-top: 50px;
+    }
+    .about__cards {
+        justify-content: center;
+        padding: 1rem;
+        margin-top: -30px;
+    }
+
+    .about__main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+
+    .about__icons {
+        width: 90%;
+        max-width: 80px;
+        max-height: 80px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+
+    }
+
+    .about__icon {
+        width: 100%;
+        max-width: 60px;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 0.6em;
+    }
+
+    .about__title {
+        font-size: 8px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .knowledge__container {
+        margin-top: -65px;
+    }
+
+    .knowledge__texts {
+        padding-bottom: 30px;
+    }
+
+    .knowledge__subtitle {
+        font-size: 2rem;
+    }
+
+    .knowledge__paragraph,
+    .knowledge__paragraph2 {
+        font-size: 9px;
+    }
+
+    .knowledge__picture {
+        padding-top: 0px;
+        gap: 10px;
+        height: 80px;
+    }
+
+    .subtitle__questions {
+        top: 30px;
+        font-size: 2.5rem;
+        left: 60px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .logo__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -30px;
+        margin-bottom: 0.5em;
+    }
+
+    .logo__footer img {
+        width: 180px;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer__form {
+        margin-left: 25px;
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .footer__inputs {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer__input,
+    .footer__submit {
+        width: 100%;
+        max-width: 220px;
+        height: 45px;
+        font-size: 0.95rem;
+    }
+
+    .footer__copy {
+        padding: 1rem 0;
+        border-top: 1px solid #fff;
+        width: 100%;
+    }
+
+    .footer__copyright {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer__title,
+    .footer__newsletter {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer__icons {
+        margin: 0.5rem 0;
+    }
+
+    .footer__social img {
+        width: 26px;
+        height: 26px;
+    }
+
+ .footer__instagram, .footer__facebook {
+    display: none;
+  }
+
+}
+
+/* === 481px a 600px === */
+/* Teléfonos grandes (iPhone 13 Pro Max, Galaxy S22 Ultra) */
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .nav {
+        --padding-container: 0;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 1000;
+        padding: 20px 40px;
+        transition: 0.5s;
+    }
+
+    .nav.abajo {
+        background: #000;
+        padding: 25px 50px;
+        height: 70px;
+    }
+
+    .nav__logo img {
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .nav__title {
+        font-weight: 300;
+    }
+
+    .nav__link {
+        margin-left: auto;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        gap: 3em;
+        font-weight: 500;
+    }
+
+        .knowledge__container {
+        margin-top: -65px;
+    }
+
+    .knowledge__texts {
+        padding-bottom: 30px;
+        margin-top: -10px;
+    }
+
+    .knowledge__subtitle {
+        font-size: 2.5rem;
+        margin-bottom: -5px;
+    }
+
+    .knowledge__paragraph,
+    .knowledge__paragraph2 {
+        font-size: 12px;
+    }
+
+    .knowledge__picture {
+        padding-top: 0px;
+        gap: 10px;
+        height: 80px;
+    }
+
+    .subtitle__questions {
+        top: 40px;
+        font-size: 2.5rem;
+        left: 150px;
+    }
+
+
+ .footer__instagram, .footer__facebook {
+    display: none;
+  }
+}
+
+/* === 601px a 768px === */
+/* Phablets y tablets verticales (iPad Mini) */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+.nav {
+        --padding-container: 0;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 1000;
+        padding: 20px 40px;
+        transition: 0.5s;
+    }
+
+    .nav.abajo {
+        background: #000;
+        padding: 25px 50px;
+        height: 70px;
+    }
+
+    .nav__logo img {
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .nav__title {
+        font-weight: 300;
+    }
+
+    .nav__link {
+        margin-left: auto;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        gap: 3em;
+        font-weight: 500;
+    }
+
+        .knowledge__container {
+        margin-top: -65px;
+    }
+
+    .knowledge__texts {
+        padding-bottom: 30px;
+    }
+
+    .knowledge__subtitle {
+        font-size: 2.5rem;
+    }
+
+    .knowledge__paragraph,
+    .knowledge__paragraph2 {
+        font-size: 12px;
+    }
+
+    .knowledge__picture {
+        padding-top: 0px;
+        gap: 10px;
+        height: 80px;
+    }
+
+    .subtitle__questions {
+        top: 10px;
+        font-size: 2.5rem;
+        left: 110px;
+    }
+
+}
+
+/* === 769px a 1024px === */
+/* Tablets horizontales (iPad Air, Galaxy Tab) */
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        --padding-container: 0;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 1000;
+        padding: 20px 40px;
+        transition: 0.5s;
+    }
+
+    .nav.abajo {
+        background: #000;
+        padding: 25px 50px;
+        height: 70px;
+    }
+
+    .nav__logo img {
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .nav__title {
+        font-weight: 300;
+    }
+
+    .nav__link {
+        margin-left: auto;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        gap: 3em;
+        font-weight: 500;
+    }
+
+} */
+
+/* === 1025px a 1280px === */
+/* Laptops y desktops medianos */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .nav {
+        --padding-container: 0;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 1000;
+        padding: 20px 40px;
+        transition: 0.5s;
+    }
+
+    .nav.abajo {
+        background: #000;
+        padding: 25px 50px;
+        height: 70px;
+    }
+
+    .nav__logo img {
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .nav__title {
+        font-weight: 300;
+    }
+
+    .nav__link {
+        margin-left: auto;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        gap: 3em;
+        font-weight: 500;
+    }
+
+}
+
+/* === 1281px en adelante === */
+/* Desktop grande, pantallas 2K+ */
+@media screen and (min-width: 1281px) {
+    .nav {
+        --padding-container: 0;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        z-index: 1000;
+        padding: 20px 40px;
+        transition: 0.5s;
+    }
+
+    .nav.abajo {
+        background: #000;
+        padding: 25px 50px;
+        height: 70px;
+    }
+
+    .nav__logo img {
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .nav__title {
+        font-weight: 300;
+    }
+
+    .nav__link {
+        margin-left: auto;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        gap: 3em;
+        font-weight: 500;
+    }
+
+}
