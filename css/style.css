@@ -936,7 +936,9 @@ input[type="submit"]:hover {
 
 
 /* --------------------------------------------PROYECTOS--------------------------------------------- */
-
+.body__proyectos {
+    overflow-x: hidden;
+}
 /*--------------------------------- VIVIENDAS -------------------------------------*/
 
 .viviendas__container {
@@ -975,10 +977,7 @@ input[type="submit"]:hover {
     padding: 0 1rem;
     margin-top: 50px;
     box-sizing: border-box;
-    overflow: hidden;
 }
-
-
 
 .viviendas__gallery img {
     width: 100%;
@@ -995,7 +994,6 @@ input[type="submit"]:hover {
     transform: scale(1.1);
     /* Zoom leve al hacer hover */
 }
-
 
 /* EDIFICIOS */
 
@@ -1051,6 +1049,8 @@ input[type="submit"]:hover {
     /* Zoom leve al hacer hover */
 }
 
+
+
 /* INDUSTRIAS */
 
 .industria__container {
@@ -1105,6 +1105,7 @@ input[type="submit"]:hover {
     transform: scale(1.1);
     /* Zoom leve al hacer hover */
 }
+
 
 /* PUENTES */
 
@@ -1216,236 +1217,17 @@ input[type="submit"]:hover {
     /* Zoom leve al hacer hover */
 }
 
-/* CONTENCIONES */
 
-.contenciones__container {
-    background-image: url(../src/img/proyectosfondos/Frame\ 10.png);
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 8%;
-    gap: 30px;
-}
-
-.contenciones--subtitle__container {
-    text-align: center;
-    color: #E4E5E4;
-    margin-bottom: 50px;
-}
-
-.contenciones__subtitle {
-    font-size: 2.7rem;
-    color: #E4E5E4;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.contenciones__gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 50px;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 2rem;
-    margin-top: 50px;
-}
-
-
-.contenciones__gallery img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-    cursor: pointer;
-    display: block;
-    transition: transform 0.3s ease;
-    border-radius: 7px;
-}
-
-.contenciones__gallery img:hover {
-    transform: scale(1.1);
-    /* Zoom leve al hacer hover */
-}
-
-/* ESTADIOS */
-
-.estadios__container {
-    background-image: url(../src/img/proyectosfondos/Frame\ 11.png);
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 8%;
-    gap: 30px;
-}
-
-.estadios--subtitle__container {
-    text-align: center;
-    color: #E4E5E4;
-    margin-bottom: 50px;
-}
-
-.estadios__subtitle {
-    font-size: 2.7rem;
-    color: #858585;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.estadios__gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 100px;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 2rem;
-    margin-top: 50px;
-}
-
-
-
-.estadios__gallery img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-    cursor: pointer;
-    display: block;
-    transition: transform 0.3s ease;
-    border-radius: 7px;
-}
-
-.estadios__gallery img:hover {
-    transform: scale(1.1);
-}
-
-/* ESPECIALES */
-
-.especiales__container {
-    background-image: url(../src/img/proyectosfondos/Frame\ 12.png);
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 8%;
-    gap: 30px;
-}
-
-.especiales--subtitle__container {
-    text-align: center;
-    color: #E4E5E4;
-    margin-bottom: 50px;
-}
-
-.especiales__subtitle {
-    font-size: 2.7rem;
-    color: #E4E5E4;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.especiales__gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 50px;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 2rem;
-    margin-top: 50px;
-}
-
-
-
-.especiales__gallery img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-    cursor: pointer;
-    display: block;
-    transition: transform 0.3s ease;
-    border-radius: 7px;
-}
-
-.especiales__gallery img:hover {
-    transform: scale(1.1);
-}
-
-/* PATOLOGIAS */
-
-.patologias__container {
-    background-image: url(../src/img/proyectosfondos/Frame\ 13.png);
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 8%;
-    gap: 30px;
-}
-
-.patologias--subtitle__container {
-    text-align: center;
-    color: #E4E5E4;
-    margin-bottom: 50px;
-}
-
-.patologias__subtitle {
-    font-size: 2.7rem;
-    color: #E4E5E4;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.patologias__gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 50px;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 2rem;
-    margin-top: 50px;
-}
-
-
-.patologias__gallery img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-    cursor: pointer;
-    display: block;
-    transition: transform 0.3s ease;
-    border-radius: 7px;
-}
-
-.patologias__gallery img:hover {
-    transform: scale(1.1);
-}
 
 /* --------------------------------------------------------------------------------------------*/
 /* NAV PROYECTOS */
 
 .nav--proyectos .nav__link {
     gap: 2em;
-    /* reduce el espacio entre ítems */
 }
 
 .nav--proyectos .nav__links {
     font-size: 1rem;
-    /* achica el tamaño de letra */
 }
 
 /* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */

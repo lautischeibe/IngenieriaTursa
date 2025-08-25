@@ -12,223 +12,224 @@
 @media screen and (min-width: 769px) and (max-width: 920px) {}
 
 @media screen and (min-width: 481px) and (max-width: 769px) {
-        /* Viviendas: 2+2+1 */
-        .viviendas__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
 
-        .viviendas__gallery .card {
-            background-color: #fff;
-            border-radius: 6px;
-            padding: 0.4rem;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    /* Viviendas: 2+2+1 */
+    .viviendas__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        .viviendas__gallery .card:nth-child(5) {
-            grid-column: 1 / span 2;
-            justify-self: center;
-            width: 50%;
-        }
+    .viviendas__gallery .card {
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0.4rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-        .viviendas__gallery .card img {
-            width: 100%;
-            height: 80px;
-            object-fit: cover;
-            border-radius: 4px;
-        }
+    .viviendas__gallery .card:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 50%;
+    }
 
-        .viviendas__gallery .card .icon {
-            margin-top: 0.2rem;
-            font-size: 0.8rem;
-            color: #333;
-        }
+    .viviendas__gallery .card img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
 
-        .viviendas__subtitle {
-            padding: 0 0.5rem;
-            margin-top: 0.5rem;
-            font-size: 1.2rem;
-            text-align: center;
-        }
+    .viviendas__gallery .card .icon {
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+        color: #333;
+    }
 
-        /* Edificios: 3x3 */
-        .edificios__gallery {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    .viviendas__subtitle {
+        padding: 0 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
 
-        /* Industria: 2+1 */
-        .industria__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    /* Edificios: 3x3 */
+    .edificios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        .industria__gallery img:nth-child(3) {
-            grid-column: 1 / span 2;
-            justify-self: center;
-            width: 60%;
-        }
+    /* Industria: 2+1 */
+    .industria__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        /* Puentes: 2x2 */
-        .puentes__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    .industria__gallery img:nth-child(3) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
 
-        /* Hidráulicas: 2+2+1 */
-        .hidraulicas__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    /* Puentes: 2x2 */
+    .puentes__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        .hidraulicas__gallery img:nth-child(5) {
-            grid-column: 1 / span 2;
-            justify-self: center;
-            width: 60%;
-        }
+    /* Hidráulicas: 2+2+1 */
+    .hidraulicas__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        /* Contenciones: 2x2 */
-        .contenciones__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    .hidraulicas__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
 
-        /* Estadios: 2+1 */
-        .estadios__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    /* Contenciones: 2x2 */
+    .contenciones__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        .estadios__gallery img:nth-child(3) {
-            grid-column: 1 / span 2;
-            justify-self: center;
-            width: 60%;
-        }
+    /* Estadios: 2+1 */
+    .estadios__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        /* Especiales: 2+2+1 */
-        .especiales__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    .estadios__gallery img:nth-child(3) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
 
-        .especiales__gallery img:nth-child(5) {
-            grid-column: 1 / span 2;
-            justify-self: center;
-            width: 60%;
-        }
+    /* Especiales: 2+2+1 */
+    .especiales__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        /* Patologías: 2+2+1 */
-        .patologias__gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            padding: 0.75rem;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 100vw;
-            box-sizing: border-box;
-        }
+    .especiales__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
 
-        .patologias__gallery img:nth-child(5) {
-            grid-column: 1 / span 2;
-            justify-self: center;
-            width: 60%;
-        }
+    /* Patologías: 2+2+1 */
+    .patologias__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.75rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
 
-        /* Estilo global para imágenes cuadradas en este rango */
-        .viviendas__gallery img,
-        .hidraulicas__gallery img,
-        .patologias__gallery img,
-        .especiales__gallery img,
-        .industria__gallery img,
-        .estadios__gallery img,
-        .contenciones__gallery img,
-        .puentes__gallery img,
-        .edificios__gallery img {
-            width: 100%;
-            height: 100px;
-            aspect-ratio: 1 / 1;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 6px;
-            transition: transform 0.3s ease;
-            display: block;
-            cursor: pointer;
-        }
+    .patologias__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
 
-        /* Hover sutil */
-        .viviendas__gallery img:hover,
-        .hidraulicas__gallery img:hover,
-        .patologias__gallery img:hover,
-        .especiales__gallery img:hover,
-        .industria__gallery img:hover,
-        .estadios__gallery img:hover,
-        .contenciones__gallery img:hover,
-        .puentes__gallery img:hover,
-        .edificios__gallery img:hover {
-            transform: scale(1.05);
-        }
+    /* Estilo global para imágenes cuadradas en este rango */
+    .viviendas__gallery img,
+    .hidraulicas__gallery img,
+    .patologias__gallery img,
+    .especiales__gallery img,
+    .industria__gallery img,
+    .estadios__gallery img,
+    .contenciones__gallery img,
+    .puentes__gallery img,
+    .edificios__gallery img {
+        width: 100%;
+        height: 100px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
 
-        .viviendas--subtitle__container{
+    /* Hover sutil */
+    .viviendas__gallery img:hover,
+    .hidraulicas__gallery img:hover,
+    .patologias__gallery img:hover,
+    .especiales__gallery img:hover,
+    .industria__gallery img:hover,
+    .estadios__gallery img:hover,
+    .contenciones__gallery img:hover,
+    .puentes__gallery img:hover,
+    .edificios__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .viviendas--subtitle__container {
         margin-top: 30px;
         margin-bottom: 0px;
-        }
-        .hidraulicas--subtitle__container,
-        .especiales--subtitle__container,
-        .patologias--subtitle__container
-        {
+    }
+
+    .hidraulicas--subtitle__container,
+    .especiales--subtitle__container,
+    .patologias--subtitle__container {
         margin-top: -20px;
         margin-bottom: -20px;
     }
@@ -642,237 +643,331 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 389px) {}
+
 @media (min-width: 320px) and (max-width: 389px) {
+.nav__menu {
+        display: block;
+    }
+
+    .nav__link--menu {
+        position: fixed;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+    }
+
+    .nav__link--show {
+        --show: block;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    .nav__close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .viviendas__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px 5%;
+        gap: 20px;
+        box-sizing: border-box;
+    }
+
+    .viviendas--subtitle__container {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .viviendas__subtitle {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        margin: 0;
+        padding: 0 0.5rem;
+        text-align: center;
+    }
 
     .viviendas__gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
-        padding: 0.5rem;
-        margin: 0 auto;
+        /* 2 columnas */
+        gap: 0.3rem;
+        /* menos espacio entre imágenes */
         width: 100%;
-        max-width: 100vw;
+        padding: 0;
+        margin: 0 0 2rem;
+        /* espacio inferior para no tocar el footer */
         box-sizing: border-box;
     }
 
-    .viviendas__gallery .card {
-        background-color: #fff;
-        border-radius: 6px;
-        padding: 0.3rem;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Quinta imagen centrada debajo de las anteriores */
-    .viviendas__gallery .card:nth-child(5) {
-        grid-column: 1 / span 2;
-        justify-self: center;
-        width: 50%;
-        /* más angosta para que no se desborde */
-    }
-
-    .viviendas__gallery .card img {
+    .viviendas__gallery .project {
         width: 100%;
-        height: 45px;
-        /* más chica pero visible */
+    }
+
+    .viviendas__gallery img {
+        width: 100%;
+        height: 50px;
+        /* imágenes más compactas */
+        aspect-ratio: 1 / 1;
         object-fit: cover;
-        border-radius: 4px;
+        object-position: center;
+        border-radius: 6px;
+        display: block;
+        transition: transform 0.3s ease;
+        cursor: pointer;
     }
 
-    .viviendas__gallery .card .icon {
+    .viviendas__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    /* Quinta imagen alineada a la izquierda en tercera fila */
+    .viviendas__gallery .project:nth-child(5) {
+        grid-column: 1 / span 1;
+        justify-self: start;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* Íconos dentro de cada proyecto (si los hay) */
+    .project .icon,
+    .viviendas__gallery .icon {
+        font-size: 0.8rem;
         margin-top: 0.2rem;
-        font-size: 0.75rem;
         color: #333;
+        text-align: center;
+        word-break: break-word;
     }
 
-    .viviendas__subtitle {
-        padding: 0 0.5rem;
-        margin-top: 0.5rem;
-        font-size: 1rem;
-        text-align: center;
+    .project svg,
+    .project img.icon {
+        max-width: 24px;
+        height: auto;
+        display: inline-block;
     }
 
 
     .edificios__container {
-        padding: 30px 5%;
-        gap: 20px;
-    }
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 5%;
+    gap: 20px;
+    box-sizing: border-box;
+  }
 
-    .edificios__subtitle {
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
+  .edificios__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
 
-    .edificios__gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* 3 columnas */
-        gap: 0.5rem;
-        padding: 0.5rem;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 100vw;
-        box-sizing: border-box;
-    }
+  .edificios__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 0.3rem;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem;
+    box-sizing: border-box;
+  }
 
-    .edificios__gallery img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        /* mantiene forma cuadrada */
-        object-fit: cover;
-        object-position: center;
-        border-radius: 5px;
-        transition: transform 0.3s ease;
-        display: block;
-        cursor: pointer;
-    }
+  .edificios__gallery .project {
+    width: 100%;
+  }
 
-    .edificios__gallery img:hover {
-        transform: scale(1.05);
-        /* zoom sutil en móvil */
-    }
+  .edificios__gallery img {
+    width: 100%;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .edificios__gallery img:hover {
+    transform: scale(1.05);
+  }
 
     .industria__container {
-        padding: 30px 5%;
-        gap: 20px;
-    }
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 5%;
+    gap: 20px;
+    box-sizing: border-box;
+  }
 
-    .industria__subtitle {
-        font-size: 1.6rem;
-        margin-top: 1rem;
-        text-align: center;
-    }
+  .industria__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
 
-    .industria__gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* 2 columnas */
-        gap: 0.5rem;
-        padding: 0.5rem;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 100vw;
-        box-sizing: border-box;
-    }
+  .industria__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 0.3rem;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem;
+    box-sizing: border-box;
+  }
 
-    .industria__gallery img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        /* cuadradas */
-        object-fit: cover;
-        object-position: center;
-        border-radius: 6px;
-        transition: transform 0.3s ease;
-        display: block;
-        cursor: pointer;
-    }
+  .industria__gallery .project {
+    width: 100%;
+  }
 
-    .industria__gallery img:hover {
-        transform: scale(1.05);
-        /* zoom sutil */
-    }
+  .industria__gallery img {
+    width: 100%;
+    height: 80px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
 
-
-    .industria__gallery img:nth-child(3) {
-        grid-column: 1 / span 2;
-        justify-self: center;
-        width: 60%;
-        /* más angosta para que no se desborde */
-    }
-
-
-    .puentes__container {
-        padding: 30px 5%;
-        gap: 20px;
-    }
-
-    .puentes__subtitle {
-        font-size: 1.6rem;
-        margin-top: 1rem;
-        text-align: center;
-    }
-
-    .puentes__gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* 2 columnas */
-        gap: 0.5rem;
-        padding: 0.5rem;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 100vw;
-        box-sizing: border-box;
-    }
-
-    .puentes__gallery img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        /* cuadradas */
-        object-fit: cover;
-        object-position: center;
-        border-radius: 6px;
-        transition: transform 0.3s ease;
-        display: block;
-        cursor: pointer;
-    }
-
-    .puentes__gallery img:hover {
-        transform: scale(1.05);
-        /* zoom sutil */
-    }
+  .industria__gallery img:hover {
+    transform: scale(1.05);
+  }
 
 
-    .hidraulicas__container {
-        padding: 30px 5%;
-        gap: 20px;
-    }
+puentes__container {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 5%;
+    gap: 20px;
+    box-sizing: border-box;
+  }
 
-    .hidraulicas__subtitle {
-        font-size: 1.6rem;
-        margin-top: 1rem;
-        text-align: center;
-    }
+  .puentes__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
 
-    .hidraulicas__gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* 2 columnas */
-        gap: 0.5rem;
-        padding: 0.5rem;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 100vw;
-        box-sizing: border-box;
-    }
+  .puentes__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 0.3rem;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem;
+    box-sizing: border-box;
+  }
 
-    .hidraulicas__gallery img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        /* cuadradas */
-        object-fit: cover;
-        object-position: center;
-        border-radius: 6px;
-        transition: transform 0.3s ease;
-        display: block;
-        cursor: pointer;
-    }
+  .puentes__gallery .project {
+    width: 100%;
+  }
 
-    .hidraulicas__gallery img:hover {
-        transform: scale(1.05);
-        /* zoom sutil */
-    }
+  .puentes__gallery img {
+    width: 100%;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
 
-    /* Quinta imagen centrada debajo de las anteriores */
-    .hidraulicas__gallery img:nth-child(5) {
-        grid-column: 1 / span 2;
-        justify-self: center;
-        width: 60%;
-        /* más angosta para que no se desborde */
-    }
+  .puentes__gallery img:hover {
+    transform: scale(1.05);
+  }
+
+
+.hidraulicas__container {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 5%;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  .hidraulicas__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+
+  .hidraulicas__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 0.3rem;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem;
+    box-sizing: border-box;
+  }
+
+  .hidraulicas__gallery .project {
+    width: 100%;
+  }
+
+  .hidraulicas__gallery img {
+    width: 100%;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .hidraulicas__gallery img:hover {
+    transform: scale(1.05);
+  }
 
 
     .contenciones__container {
@@ -1074,74 +1169,74 @@
         cursor: pointer;
     }
 
-  .footer__container {
-    padding: 20px 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-  }
+    .footer__container {
+        padding: 20px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
 
-  .logo__footer img {
-    width: 140px;
-    margin-bottom: 8px;
-    padding-left: 0;
-  }
+    .logo__footer img {
+        width: 140px;
+        margin-bottom: 8px;
+        padding-left: 0;
+    }
 
-  .footer__social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 8px;
-  }
+    .footer__social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 8px;
+    }
 
-  .footer__title {
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
+    .footer__title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
 
-  .footer__newsletter {
-    font-size: 0.85rem;
-    margin: 8px 0;
-  }
+    .footer__newsletter {
+        font-size: 0.85rem;
+        margin: 8px 0;
+    }
 
-  .footer__form {
-    width: 100%;
-    padding: 0;
-  }
+    .footer__form {
+        width: 100%;
+        padding: 0;
+    }
 
-  .footer__inputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 8px;
-    width: 100%;
-  }
+    .footer__inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 8px;
+        width: 100%;
+    }
 
-  .footer__input,
-  .footer__submit {
-    width: 100%;
-    font-size: 0.85rem;
-    padding: 8px;
-    margin: 0;
-  }
+    .footer__input,
+    .footer__submit {
+        width: 100%;
+        font-size: 0.85rem;
+        padding: 8px;
+        margin: 0;
+    }
 
-  .nav__link__footer {
-    display: grid;
-    grid-auto-flow: row;
-    justify-content: center;
-    gap: 0.75rem;
-    margin-top: 10px;
-    font-size: 0.85rem;
-  }
+    .nav__link__footer {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        gap: 0.75rem;
+        margin-top: 10px;
+        font-size: 0.85rem;
+    }
 
-  .footer__copy {
-    padding: 10px 0;
-    font-size: 0.75rem;
-  }
+    .footer__copy {
+        padding: 10px 0;
+        font-size: 0.75rem;
+    }
 
 
 
