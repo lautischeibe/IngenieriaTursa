@@ -1,0 +1,1149 @@
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░                       MEDIA QUERIES / GALERIA DE IMAGENES-PROYECTOS / AARREGLADOR XD                                         ░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media screen and (min-width: 920px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 769px) and (max-width: 920px) {}
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+        /* Viviendas: 2+2+1 */
+        .viviendas__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .viviendas__gallery .card {
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 0.4rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .viviendas__gallery .card:nth-child(5) {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            width: 50%;
+        }
+
+        .viviendas__gallery .card img {
+            width: 100%;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .viviendas__gallery .card .icon {
+            margin-top: 0.2rem;
+            font-size: 0.8rem;
+            color: #333;
+        }
+
+        .viviendas__subtitle {
+            padding: 0 0.5rem;
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        /* Edificios: 3x3 */
+        .edificios__gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        /* Industria: 2+1 */
+        .industria__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .industria__gallery img:nth-child(3) {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            width: 60%;
+        }
+
+        /* Puentes: 2x2 */
+        .puentes__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        /* Hidráulicas: 2+2+1 */
+        .hidraulicas__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .hidraulicas__gallery img:nth-child(5) {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            width: 60%;
+        }
+
+        /* Contenciones: 2x2 */
+        .contenciones__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        /* Estadios: 2+1 */
+        .estadios__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .estadios__gallery img:nth-child(3) {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            width: 60%;
+        }
+
+        /* Especiales: 2+2+1 */
+        .especiales__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .especiales__gallery img:nth-child(5) {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            width: 60%;
+        }
+
+        /* Patologías: 2+2+1 */
+        .patologias__gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            padding: 0.75rem;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100vw;
+            box-sizing: border-box;
+        }
+
+        .patologias__gallery img:nth-child(5) {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            width: 60%;
+        }
+
+        /* Estilo global para imágenes cuadradas en este rango */
+        .viviendas__gallery img,
+        .hidraulicas__gallery img,
+        .patologias__gallery img,
+        .especiales__gallery img,
+        .industria__gallery img,
+        .estadios__gallery img,
+        .contenciones__gallery img,
+        .puentes__gallery img,
+        .edificios__gallery img {
+            width: 100%;
+            height: 100px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 6px;
+            transition: transform 0.3s ease;
+            display: block;
+            cursor: pointer;
+        }
+
+        /* Hover sutil */
+        .viviendas__gallery img:hover,
+        .hidraulicas__gallery img:hover,
+        .patologias__gallery img:hover,
+        .especiales__gallery img:hover,
+        .industria__gallery img:hover,
+        .estadios__gallery img:hover,
+        .contenciones__gallery img:hover,
+        .puentes__gallery img:hover,
+        .edificios__gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .viviendas--subtitle__container{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        }
+        .hidraulicas--subtitle__container,
+        .especiales--subtitle__container,
+        .patologias--subtitle__container
+        {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+}
+
+
+@media (min-width: 389px) and (max-width: 481px) {
+
+    /* Viviendas: grilla 2+1 */
+    .viviendas__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .viviendas__gallery .card {
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0.3rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .viviendas__gallery .card:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 50%;
+    }
+
+    .viviendas__gallery .card img {
+        width: 100%;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .viviendas__gallery .card .icon {
+        margin-top: 0.2rem;
+        font-size: 0.75rem;
+        color: #333;
+    }
+
+    .viviendas__subtitle {
+        padding: 0 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* Edificios: grilla 3x3 */
+    .edificios__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .edificios__subtitle {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .edificios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .edificios__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .edificios__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    /* Industria: 2+1 */
+    .industria__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .industria__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .industria__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .industria__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .industria__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .industria__gallery img:nth-child(3) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
+
+    /* Puentes: 2x2 */
+    .puentes__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .puentes__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .puentes__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .puentes__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .puentes__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    /* Hidráulicas: 2+2+1 */
+    .hidraulicas__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .hidraulicas__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .hidraulicas__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .hidraulicas__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hidraulicas__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .hidraulicas__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
+
+    /* Contenciones: 2x2 */
+    .contenciones__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .contenciones__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .contenciones__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .contenciones__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .contenciones__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    /* Estadios: 2+1 */
+    .estadios__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .estadios__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .estadios__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .estadios__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .estadios__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .estadios__gallery img:nth-child(3) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
+
+    /* Especiales: 2+2+1 */
+    .especiales__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .especiales__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .especiales__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .especiales__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .especiales__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .especiales__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
+
+    /* Patologías: 2+2+1 */
+    .patologias__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .patologias__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .patologias__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .patologias__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .patologias__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .patologias__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
+
+    .viviendas__gallery img,
+    .hidraulicas__gallery img,
+    .patologias__gallery img,
+    .especiales__gallery img,
+    .industria__gallery img,
+    .estadios__gallery img,
+    .contenciones__gallery img,
+    .puentes__gallery img,
+    .edificios__gallery img {
+        width: 100%;
+        height: 90px;
+        /* achicada */
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 389px) {
+
+    .viviendas__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .viviendas__gallery .card {
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0.3rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Quinta imagen centrada debajo de las anteriores */
+    .viviendas__gallery .card:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 50%;
+        /* más angosta para que no se desborde */
+    }
+
+    .viviendas__gallery .card img {
+        width: 100%;
+        height: 45px;
+        /* más chica pero visible */
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .viviendas__gallery .card .icon {
+        margin-top: 0.2rem;
+        font-size: 0.75rem;
+        color: #333;
+    }
+
+    .viviendas__subtitle {
+        padding: 0 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    .edificios__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .edificios__subtitle {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .edificios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .edificios__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        /* mantiene forma cuadrada */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .edificios__gallery img:hover {
+        transform: scale(1.05);
+        /* zoom sutil en móvil */
+    }
+
+    .industria__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .industria__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .industria__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .industria__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        /* cuadradas */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .industria__gallery img:hover {
+        transform: scale(1.05);
+        /* zoom sutil */
+    }
+
+
+    .industria__gallery img:nth-child(3) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+        /* más angosta para que no se desborde */
+    }
+
+
+    .puentes__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .puentes__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .puentes__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .puentes__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        /* cuadradas */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .puentes__gallery img:hover {
+        transform: scale(1.05);
+        /* zoom sutil */
+    }
+
+
+    .hidraulicas__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .hidraulicas__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .hidraulicas__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .hidraulicas__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        /* cuadradas */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hidraulicas__gallery img:hover {
+        transform: scale(1.05);
+        /* zoom sutil */
+    }
+
+    /* Quinta imagen centrada debajo de las anteriores */
+    .hidraulicas__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+        /* más angosta para que no se desborde */
+    }
+
+
+    .contenciones__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .contenciones__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .contenciones__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .contenciones__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .contenciones__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .estadios__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .estadios__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .estadios__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .estadios__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .estadios__gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .estadios__gallery img:nth-child(3) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+    }
+
+    .especiales__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .especiales__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .especiales__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .especiales__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        /* cuadradas */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .especiales__gallery img:hover {
+        transform: scale(1.05);
+        /* zoom sutil */
+    }
+
+    /* Quinta imagen centrada debajo de las anteriores */
+    .especiales__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+        /* más angosta para que no se desborde */
+    }
+
+    .patologias__container {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .patologias__subtitle {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .patologias__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .patologias__gallery img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        /* cuadradas */
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+    .patologias__gallery img:hover {
+        transform: scale(1.05);
+        /* zoom sutil */
+    }
+
+    /* Quinta imagen centrada debajo de las anteriores */
+    .patologias__gallery img:nth-child(5) {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 60%;
+        /* más angosta para que no se desborde */
+    }
+
+
+    .viviendas__gallery img,
+    .hidraulicas__gallery img,
+    .patologias__gallery img,
+    .especiales__gallery img,
+    .industria__gallery img,
+    .estadios__gallery img,
+    .contenciones__gallery img,
+    .puentes__gallery img,
+    .edificios__gallery img {
+        width: 100%;
+        height: 70px;
+        /* achicada */
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        display: block;
+        cursor: pointer;
+    }
+
+  .footer__container {
+    padding: 20px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .logo__footer img {
+    width: 140px;
+    margin-bottom: 8px;
+    padding-left: 0;
+  }
+
+  .footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .footer__title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .footer__newsletter {
+    font-size: 0.85rem;
+    margin: 8px 0;
+  }
+
+  .footer__form {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+
+  .footer__input,
+  .footer__submit {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .nav__link__footer {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 10px;
+    font-size: 0.85rem;
+  }
+
+  .footer__copy {
+    padding: 10px 0;
+    font-size: 0.75rem;
+  }
+
+
+
+
+}
