@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (min-width: 250px) and (man-width: 321px){
-.nav__menu {
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .nav__menu {
         display: block;
     }
 
@@ -39,105 +40,176 @@
         cursor: pointer;
     }
 
+    .nav__logo img{
+        width: 175px;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    .hero__paragraph {
+        font-size: 2.2rem;
+        margin-left: -50px;
+    }
+
+    .about {
+        width: 200px;
+        padding-top: 150px;
+        margin-left: -20px;
+    }
+
+    .about__main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .about__icons {
+        width: 120px;
+        height: 120px;
+        font-size: 9px;
+    }
+
     .about__subtitle {
-        margin-top: -120px;
-        font-size: 40px;
+        margin-top: -100px;
+    }
+
+    .about__icon {
+        width: 40px;
     }
 
     .about__cards {
         justify-content: center;
-        padding: 1rem;
-        margin-top: 20px;
+        margin-right: -10px;
+        padding: 10px;
+        padding-top: 40px;
     }
 
-    .about__main {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2em;
-        margin-top: 70px;
-        padding-right: 70px;
+    .about__text,
+    .about__list {
+        font-size: 10px;
     }
 
-    .about__icons {
-        width: 90%;
-        max-width: 80px;
-        max-height: 80px;
-        border-radius: 10px;
-        font-size: 0.9rem;
-        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
-        margin: auto;
-    }
-
-    .about__icon {
-        width: 100%;
-        max-width: 60px;
-        height: auto;
-        object-fit: contain;
-        margin-bottom: 0.6em;
-    }
-
-    .about__title {
-        font-size: 8px;
-        text-align: center;
-        line-height: 1.3;
-    }
-
-    .profile {
-        width: 210px;
-        height: 220px;
-    }
-
-    .profile__img {
-        width: 30px;
-        height: 30px;
+    .knowledge {
+        padding: 15px;
     }
 
     .knowledge__container {
-        margin-top: -65px;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        text-align: center;
+        margin-top: -50px;
     }
 
-    .knowledge__texts {
-        padding-bottom: 30px;
+    .knowledge__paragraph {
+        font-size: 12px;
     }
 
-    .knowledge__subtitle {
-        font-size: 2rem;
-    }
-
-    .knowledge__paragraph,
     .knowledge__paragraph2 {
-        font-size: 9px;
+        font-size: 12px;
     }
+
 
     .knowledge__picture {
-        padding-top: 0px;
-        gap: 10px;
-        height: 80px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-top: 30px;
     }
 
-    .subtitle__price{
-        font-size: 2.7rem;
+    .profile {
+        width: 85vw;
+        max-width: 260px;
+        height: auto;
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .profile__img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .profile__name {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 700;
+        flex-grow: 1;
+    }
+
+    .profile__linkedin {
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .linkedin__icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .profile__role {
+        display: none;
+        /* Ocultamos el rol si no entra bien */
+    }
+
+
+    .subtitle__price {
+        margin-top: -10px;
+    }
+
+    .price__element {
+        width: 500px;
+        height: 300px;
+        margin-top: 70px;
     }
 
     .subtitle__questions {
-        top: 30px;
-        font-size: 2.5rem;
-        left: 50px;
+        margin-top: 20px;
+        left: 60px;
+        font-size: 35px;
     }
+
+    .form {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form__container {
+        align-items: center;
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .input__questions {
+        width: 100%;
+        text-align: center;
+    }
+
 
     .footer__container {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 1.2rem;
     }
 
     .logo__footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -30px;
-        margin-bottom: 0.5em;
     }
 
     .logo__footer img {
@@ -164,6 +236,11 @@
         gap: 0.8rem;
         margin-bottom: 0.8rem;
     }
+
+    .footer__input{
+        margin-right: 0px;
+    }
+
 
     .footer__input,
     .footer__submit {
@@ -194,21 +271,12 @@
         margin: 0.5rem 0;
     }
 
-    .footer__social img {
-        width: 26px;
-        height: 26px;
-    }
-
-    .footer__instagram,
-    .footer__facebook {
-        display: none;
-    }
 
 }
 
 /* === 321px a 375px === */
 /* Teléfonos chicos */
-@media screen and (min-width: 321px) and (max-width: 389px) {
+@media screen and (min-width: 400px) and (max-width: 440px) {
     .nav__menu {
         display: block;
     }
@@ -413,12 +481,9 @@
 
 }
 
-
-
-
 /* === 376px a 480px === */
 /* Teléfonos estándar (Galaxy S8, Pixel 4a) */
-@media screen and (min-width: 389px) and (max-width: 480px) {
+@media screen and (min-width: 440px) and (max-width: 480px) {
     .nav__menu {
         display: block;
     }
@@ -613,7 +678,7 @@
 
 /* === 481px a 600px === */
 /* Teléfonos grandes (iPhone 13 Pro Max, Galaxy S22 Ultra) */
-@media screen and (min-width: 481px) and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 600px) {
     .nav {
         --padding-container: 0;
         height: 90px;
@@ -695,7 +760,7 @@
 
 /* === 601px a 768px === */
 /* Phablets y tablets verticales (iPad Mini) */
-@media screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .nav {
         --padding-container: 0;
         height: 90px;
@@ -770,7 +835,7 @@
 
 /* === 769px a 1024px === */
 /* Tablets horizontales (iPad Air, Galaxy Tab) */
-/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
     .nav {
         --padding-container: 0;
         height: 90px;
@@ -816,7 +881,7 @@
 
 /* === 1025px a 1280px === */
 /* Laptops y desktops medianos */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+/* @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .nav {
         --padding-container: 0;
         height: 90px;
@@ -858,11 +923,11 @@
         font-weight: 500;
     }
 
-}
+} */
 
 /* === 1281px en adelante === */
 /* Desktop grande, pantallas 2K+ */
-@media screen and (min-width: 1281px) {
+/* @media screen and (min-width: 1280px) {
     .nav {
         --padding-container: 0;
         height: 90px;
@@ -904,4 +969,4 @@
         font-weight: 500;
     }
 
-}
+} */
