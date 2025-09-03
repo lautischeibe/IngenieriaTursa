@@ -222,11 +222,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 20px;
     }
 
     .logo__footer img {
         width: 180px;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1rem;
     }
 
     .footer__form {
@@ -453,20 +454,18 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 1.2rem;
     }
 
     .logo__footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -30px;
-        margin-bottom: 0.5em;
     }
 
     .logo__footer img {
         width: 180px;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1rem;
+        margin-left: 50px;
     }
 
     .footer__form {
@@ -488,6 +487,11 @@
         gap: 0.8rem;
         margin-bottom: 0.8rem;
     }
+
+    .footer__input{
+        margin-right: 0px;
+    }
+
 
     .footer__input,
     .footer__submit {
@@ -517,17 +521,6 @@
     .footer__icons {
         margin: 0.5rem 0;
     }
-
-    .footer__social img {
-        width: 26px;
-        height: 26px;
-    }
-
-    .footer__instagram,
-    .footer__facebook {
-        display: none;
-    }
-
 
 
 }
@@ -645,25 +638,22 @@
         font-size: 2.5rem;
         left: 60px;
     }
-
     .footer__container {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 1.2rem;
     }
 
     .logo__footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -30px;
-        margin-bottom: 0.5em;
+        margin-left: 20px;
     }
 
     .logo__footer img {
         width: 180px;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1rem;
     }
 
     .footer__form {
@@ -685,6 +675,11 @@
         gap: 0.8rem;
         margin-bottom: 0.8rem;
     }
+
+    .footer__input{
+        margin-right: 0px;
+    }
+
 
     .footer__input,
     .footer__submit {
@@ -714,17 +709,6 @@
     .footer__icons {
         margin: 0.5rem 0;
     }
-
-    .footer__social img {
-        width: 26px;
-        height: 26px;
-    }
-
-    .footer__instagram,
-    .footer__facebook {
-        display: none;
-    }
-
 }
 
 /* === 481px a 600px === */
