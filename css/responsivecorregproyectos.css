@@ -2,13 +2,13 @@
 /* ░░░░░░░░░░░░░░                       MEDIA QUERIES / GALERIA DE IMAGENES-PROYECTOS / AARREGLADOR XD                                         ░░░░░░░░░░░░░░ */
 /* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
 
-@media screen and (min-width: 1280px) and (max-width: 1440px) {}
+/* @media screen and (min-width: 1280px) and (max-width: 1440px) {}
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {}
 
 @media screen and (min-width: 920px) and (max-width: 1024px) {}
 
-@media screen and (min-width: 769px) and (max-width: 920px) {}
+@media screen and (min-width: 769px) and (max-width: 920px) {} */
 
 @media screen and (min-width: 481px) and (max-width: 769px) {
 
@@ -1234,5 +1234,280 @@
     .footer__copy {
         padding: 10px 0;
         font-size: 0.75rem;
+    }
+}
+
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░                       769px – 1250px: RANGO INTERMEDIO (tablet landscape / desktop chico)                                        ░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+
+@media screen and (min-width: 769px) and (max-width: 1250px) {
+
+    /* ── Figura / contenedor de cada proyecto ────────────────────────────── */
+    /* El div.hidden con los <a> extras no debe ocupar espacio visual        */
+    .gallery .project {
+        overflow: hidden;   /* evita que el div.hidden desborde el figure   */
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery .project .hidden {
+        display: none;      /* asegura que los links ocultos no empujen layout */
+    }
+
+    /* ── Imágenes: tamaño uniforme en todas las galerías ─────────────────── */
+    .gallery .project img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        display: block;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .gallery .project img:hover {
+        transform: scale(1.05);
+    }
+
+    /* ── VIVIENDAS: 5 imágenes → 3 + 2 ──────────────────────────────────── */
+    .viviendas__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Última fila: 2 imágenes centradas */
+    .viviendas__gallery .project:nth-child(4),
+    .viviendas__gallery .project:nth-child(5) {
+        grid-column: auto;
+    }
+
+    /* ── EDIFICIOS: 9 imágenes → 3 columnas ─────────────────────────────── */
+    .edificios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── INDUSTRIA: 3 imágenes → 3 columnas ─────────────────────────────── */
+    .industria__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── PUENTES: 4 imágenes → 2 columnas ───────────────────────────────── */
+    .puentes__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── HIDRÁULICAS: 5 imágenes → 3 + 2 ───────────────────────────────── */
+    .hidraulicas__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── CONTENCIONES: 4 imágenes → 2 columnas ──────────────────────────── */
+    .contenciones__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── ESTADIOS: 3 imágenes → 3 columnas ──────────────────────────────── */
+    .estadios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── ESPECIALES: 5 imágenes → 3 + 2 ────────────────────────────────── */
+    .especiales__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── PATOLOGÍAS: 5 imágenes → 3 + 2 ────────────────────────────────── */
+    .patologias__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░          769px – 1250px: GALERÍA — corrige height:100vh forzado del style.css base                                               ░░░░░░░░░░░░░░ */
+/* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+
+@media screen and (min-width: 769px) and (max-width: 1250px) {
+
+    /* ── La regla global "section { height: 100vh }" del style.css
+           corta el contenido. Aquí la sobreescribimos para que cada
+           sección de proyectos crezca según su contenido.              ── */
+
+    .viviendas__container,
+    .edificios__container,
+    .industria__container,
+    .puentes__container,
+    .hidraulicas__container,
+    .contenciones__container,
+    .estadios__container,
+    .especiales__container,
+    .patologias__container {
+        height: auto !important;
+        min-height: 100vh;
+        overflow: visible;
+    }
+
+    /* ── Figura / contenedor de cada proyecto ───────────────────────── */
+    .gallery .project {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery .project .hidden {
+        display: none;
+    }
+
+    /* ── Imagen uniforme con proporción fija ─────────────────────────── */
+    .gallery .project img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 6px;
+        display: block;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .gallery .project img:hover {
+        transform: scale(1.05);
+    }
+
+    /* ── VIVIENDAS: 5 imgs → 3 columnas ─────────────────────────────── */
+    .viviendas__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── EDIFICIOS: 9 imgs → 3 columnas ─────────────────────────────── */
+    .edificios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── INDUSTRIA: 3 imgs → 3 columnas ─────────────────────────────── */
+    .industria__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── PUENTES: 4 imgs → 2 columnas ───────────────────────────────── */
+    .puentes__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── HIDRÁULICAS: 5 imgs → 3 columnas ───────────────────────────── */
+    .hidraulicas__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── CONTENCIONES: 4 imgs → 2 columnas ──────────────────────────── */
+    .contenciones__gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── ESTADIOS: 3 imgs → 3 columnas ──────────────────────────────── */
+    .estadios__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── ESPECIALES: 5 imgs → 3 columnas ────────────────────────────── */
+    .especiales__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* ── PATOLOGÍAS: 5 imgs → 3 columnas ────────────────────────────── */
+    .patologias__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
