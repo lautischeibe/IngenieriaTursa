@@ -96,7 +96,7 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 
 .nav__logo img {
     margin-top: 5px;
-    width: 200px;
+    width: 220px;
 }
 
 .nav__title {
@@ -239,17 +239,18 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
 .about__text {
     position: relative;
     z-index: 1;
-    line-height: 1;
+    line-height: 1.5;
     color: #E4E5E4;
     font-size: 15px;
-    text-align: justify;
+    /* text-align: justify; */
     font-weight: 400;
 }
 
 .about__list {
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
     /* Espaciado para que no quede pegado */
-    line-height: 1.3;
+    line-height: 1.5;
     font-size: 15px;
     color: #E4E5E4;
     font-weight: 400;
@@ -346,15 +347,17 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
     font-size: 15px;
 }
 
-.knowledge__paragraph {
-    font-weight: 400;
-    color: #E4E5E4;
+.knowledge__paragraph,
+.knowledge__paragraph2,
+.knowledge__paragraph3,
+.knowledge__paragraph4 {
+  font-weight: 400;
+  color: #E4E5E4;
+  line-height: 1.5;
+  margin-bottom: 15px; /* espacio entre párrafos */
 }
 
-.knowledge__paragraph2 {
-    font-weight: 400;
-    color: #E4E5E4;
-}
+
 
 .knowledge__picture {
     display: flex;
@@ -2211,14 +2214,6 @@ input[type="submit"]:hover {
         margin-top: -50px;
     }
 
-
-    .knowledge__paragraph {
-        padding: 10px;
-    }
-
-    .knowledge__paragraph2 {
-        padding-bottom: 10px;
-    }
 
     .knowledge__picture {
         padding-top: -30px;
