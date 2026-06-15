@@ -357,7 +357,18 @@ section:not(#clientes):not(.footer__copy):not(.footer):not(.footer__container) {
   margin-bottom: 15px; /* espacio entre párrafos */
 }
 
+.knowledge .knowledge__subtitle {
+    color: #E4E5E4 !important;
+}
 
+.about__subtitle {
+    color: #E4E5E4 !important;
+}
+
+.about__text,
+.about__list {
+    color: #E4E5E4 !important;
+}
 
 .knowledge__picture {
     display: flex;

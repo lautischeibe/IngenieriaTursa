@@ -123,6 +123,12 @@
     .knowledge__paragraph2 {
         font-size: 10px;
     }
+    .knowledge__paragraph3 {
+        font-size: 10px;
+    }
+    .knowledge__paragraph4 {
+        font-size: 10px;
+    }
 
 
     .knowledge__picture {
@@ -391,6 +397,12 @@
     .knowledge__paragraph2 {
         font-size: 10px;
     }
+    .knowledge__paragraph3 {
+        font-size: 10px;
+    }
+    .knowledge__paragraph4 {
+        font-size: 10px;
+    }
 
 
     .knowledge__picture {
@@ -626,6 +638,12 @@
     .knowledge__paragraph2 {
         font-size: 9px;
     }
+        .knowledge__paragraph3 {
+        font-size: 9px;
+    }
+    .knowledge__paragraph4 {
+        font-size: 9px;
+    }
 
     .knowledge__picture {
         padding-top: 10px;
@@ -770,7 +788,9 @@
     }
 
     .knowledge__paragraph,
-    .knowledge__paragraph2 {
+    .knowledge__paragraph2,
+    .knowledge__paragraph3,
+    .knowledge__paragraph4 {
         font-size: 12px;
     }
 
@@ -850,7 +870,9 @@
     }
 
     .knowledge__paragraph,
-    .knowledge__paragraph2 {
+    .knowledge__paragraph2,
+    .knowledge__paragraph3,
+    .knowledge__paragraph4 {
         font-size: 12px;
     }
 
