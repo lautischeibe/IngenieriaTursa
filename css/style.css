@@ -2385,6 +2385,13 @@ input[type="submit"]:hover {
         transition: .7s opacity;
     }
 
+    .nav__link.nav__link--menu {
+    display: flex;
+    grid-auto-flow: unset;
+    grid-auto-columns: unset;
+    gap: 0;
+}
+
     .nav__link--show {
         --show: block;
         opacity: 1;
